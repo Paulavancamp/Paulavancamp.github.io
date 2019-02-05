@@ -1,83 +1,205 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>MySite</title>
+		<title>MU GWC</title>
 		<style type="text/css">
-			body {
-				font-size: 80%;
-				font-family: "Courier New", Courier, monospace;
-				letter-spacing: 0.15em;	
-				background-color: #d5f3dd;}
-			#page {
-				max-width: 940px;
-				min-width: 720px;
-				margin: 10px auto 10px auto;
-				padding: 20px;
-				border: 4px double #000;
-				background-color: #ffffff;}
-			#logo {
-				width: 550px;
-				margin: 10px auto 25px auto;}
-			ul {
-				width: 570px;
-				padding: 15px;
-				margin: 0px auto 0px auto;
-				border-top: 1px solid #000;
-				border-bottom: 1px solid #000;
-				text-align: center;}
-			li {
-				display: inline;
-				margin: 0px 3px;}
-			p {
-				text-align: center;
-				width: 600px; 
-				margin: 20px auto 20px auto; 
-				font-weight: normal;}
-			a {
-				color: #000000;
-				text-transform: uppercase;
-				text-decoration: none;
-				padding: 6px 18px 5px 18px;}
-			a:hover, a.on {
-				color: #cc3333;
-				background-color: #ffffff;}
-		</style>
-	</head>
-	<body>
-	
-		<div id="page">
-			<div id="logo">
-				<img src="images/gween.jpg" alt="Creative Consciousness" height = 200 width = 550/>
-			</div>
-			<ul id="navigation">
-				<li><a href="paulavancamp.github.io/rethink.html" class="on">Home</a></li>
-				<li><a href="paulavancamp.github.io/workings.html">Works</a></li>
-				<li><a href="paulavancamp.github.io/thoughts.html">Girls Who Code</a></li>
-				<li><a href="paulavancamp.github.io">About</a></li>
-			</ul>
-			<p>
-				My name is Paula Van Camp and I am a creative thinker.  Currently studying computer engineering at Marquette University,
-				I hope to one day hear engineering described as an art form. In addition to code, I like creating wooden masterpeices.
-				You can see images and read stories about the many thing's I've made in the <a href "thoughts.html">Works</a> page. 
-				Music and dance are also large parts of my life.  There is a necessity in all human lives for the spiritual connection
-				that is experienced in the form of dancing and listening/performing music. You are welcome to quote me on that.  <p>
-				You have also probably noticed by now, from the images on my site,that I have a love for cereal. Cereal is beautiful. <p>
-				To learn more about me or browse through old embarassing pictures, click on the links below. 
-			</p>
-			<ul id="links">
-				<a href = "https://twitter.com/pah_la"><img src= "images/tlogo.png"  width="100" height="100"></a>	
-				<a href = "https://www.facebook.com/paula.vancamp"><img src= "images/flogo.png"  width="90" height="90"></a>
-				<a href = "https://www.instagram.com/pah_la_/"> <img src= "images/ilogo.png" width="100" height="100"></a>
-			</ul>
-		</div>
 			
-			
-		<div class= "footer clearfix">
-			<div class="grid_12">
-				<p>The key to growth is the introduction of higher dimensions of consciousness into our awareness. <p> - Lao Tzu</p>
-				<p class= "grid_12"><a> Paula Van Camp</a> | <a> Copyright: 2016</a></p>
-			</div>
-		</div>	
+			@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#logo{
+  font-size:75px;
+  margin:25px 50px 25px 100px;
+  text-align:left;
+}
+#menu{
+  width:100%;
+  margin:auto;
+  background-color:rgb(50,100,200);
+  padding:20px 0px 20px 0px;
+  left:0;
+}
+table{
+  margin:auto;
+}
+table a{
+  text-decoration:none;
+  text-align:center;
+  padding:20px;
+  color:white;
+}
+table a:hover{
+  opacity: 0.6
+}
+
+p{
+  color:rgb(50,100,200);
+  font-size:30px;
+  text-align:center;
+  padding-top:10px;
+}
+#intro, #transition{
+  margin:100px 50px 100px 50px;
+}
+.content {
+  padding: 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  left:0;
+  width:100%;
+}
+.sticky + .content {
+  padding-top: 90px;
+}
+#opening-pic{
+  width:100%;
+}
+
+#side-pic{
+  width:30%;
+  display:in-line;
+  float:right;
+  margin-right:10%;
+  margin-top:50px;
+}
+#mission{
+  margin-bottom:100px;
+}
+#in-line{
+  display:in-line;
+  width:50%;
+  float:left;
+  font-size:40px;
+  margin-top:50px;
+}
+#news-link{
+  display:block;
+  float:left;
+  margin:50px 0px 50px 0px;
+  background-color:rgba(50,100,200,0.8);
+  height:300px;
+  box-shadow: 4px 4px rgba(132, 161, 188, 0.6)
+}
+#news-link p{
+  color:white;
+}
+
+#social{
+  width:100%;
+  text-align:center;
+  margin-top:100px;
+  float:left;
+}
+#icons{
+  text-align:center;
+  font-size: 40px;
+  margin:auto;
+}
+.fa{
+  padding-top:10px;
+  height:50px;
+  color:white;
+  width:30%;
+  text-decoration: none;
+}
+.fa-facebook {
+  background: #3B5998;
+}
+.fa-linkedin {
+  background: #007bb5;
+}
+.fa-instagram {
+  background: #125688;
+}
+h3{
+  color:rgb(50,100,200);
+  font-size:20px;
+  text-align:center;
+  padding:10px;
+}
+</style>
+
+</head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+  <p id = logo> Ice Visions</p>
+  <div id="menu"> 
+  <table>
+    <tr>
+      <td><a href = "#">Home</a></td>
+      <td><a href = "#">About the Artist</a></td>
+      <td><a href = "#">Gallery</a></td>
+      <td><a href = "#">News</a></td>
+      <td><a href = "#">Place an Order</a></td>
+      <td><a href = "#">FAQ</a></td>
+      <td><a href = "#">Contact</a></td>
+    </tr>
+  </table>
+</div>
+  <div class = content>
+  <img id = "opening-pic"src = "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/5/25/525edc44-3721-5dd3-af8d-117c5ed1e039/5a57fb3b62eda.image.jpg?resize=1200%2C782">
+<div id = "intro">
+<p id = mission> Our mission is to provide the finest possible products and services, professionally 
+produced for the best value to our customers.
+
+We have been creating the finest ice sculptures in the St. Louis, Missouri area since 1992.
+  </p>
+  
+   <div id = news-link>
+      <p> Hear the latest and greatest about Ice Visions! Read articles in the local news and learn more about events and appearances!  </p>
+     <table id = news-logos>
+       <td><img src = "https://www.coulterlambson.com/images/George-in-St.-Louis-Magazine[1].png" height=75px>
+         </td>
+           <td><img src = "https://bloximages.chicago2.vip.townnews.com/central.leetemplates.com/content/tncms/live/global/resources/images/logos/ds/stltoday.com.png?_dc=1527731373" height=75px></td>
+     </table>
+    </div>
+  <div id = "in-line">
+      <p>
+Browse our Photo Gallery for a sampling of our fabulous ice sculptures. Photos are uploaded regularly.</p>
+    </div>
+  <img id = "side-pic"src = "http://www.icevisions.com/large_photos/weddings/large/w-monogram_icebar.jpg">
+    </div>
+  <footer id = "social">
+<div id = "icons">
+<a href="https://www.facebook.com/icevisions/" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="https://www.instagram.com/ice_visions/" class="fa fa-instagram"></a>
+    </div>
+    <h3>Thanks for visiting!<br><br>
+      324 Sante Avenue <br>
+St. Louis, MO 63122<br>
+(314) 821-1204 </h3>
+</footer>
+  </div>
+</body>
 		
-	</body>
+<script>
+	
+	// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var menu= document.getElementById("menu");
+
+// Get the offset position of the navbar
+var sticky = menu.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    menu.classList.add("sticky")
+  } else {
+    menu.classList.remove("sticky");
+  }
+}
+	
+</script>
+		
+		
 </html>
