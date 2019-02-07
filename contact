@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PVC</title>
+		<style type="text/css">
+			
+			@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#logo{
+  font-size:75px;
+  margin:25px 50px 25px 100px;
+  text-align:left;
+}
+#menu{
+  width:100%;
+  margin:auto;
+  background-color:rgb(50,100,200);
+  padding:20px 0px 20px 0px;
+  left:0;
+}
+table{
+  margin:auto;
+}
+table a{
+  text-decoration:none;
+  text-align:center;
+  padding:20px;
+  color:white;
+}
+table a:hover{
+  opacity: 0.6
+}
+p{
+  color:rgb(50,100,200);
+  font-size:30px;
+  text-align:center;
+  padding-top:10px;
+}
+#intro, #transition{
+  margin:100px 50px 100px 50px;
+}
+.content {
+  padding: 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  left:0;
+  width:100%;
+}
+.sticky + .content {
+  padding-top: 90px;
+}
+
+#social{
+  width:100%;
+  text-align:center;
+  margin-top:100px;
+  float:left;
+}
+h3{
+  color:rgb(50,100,200);
+  font-size:20px;
+  text-align:center;
+  padding:10px;
+}
+</style>
+
+#icons{
+  text-align:center;
+  font-size: 40px;
+  margin:auto;
+}
+.fa{
+  padding-top:10px;
+  height:50px;
+  color:white;
+  width:30%;
+  text-decoration: none;
+}
+.fa-facebook {
+  background: #3B5998;
+}
+.fa-linkedin {
+  background: #007bb5;
+}
+.fa-instagram {
+  background: #125688;
+}
+</style>
+</head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+
+ <p id = logo> Ice Visions</p>
+  <div id="menu"> 
+  <table>
+    <tr>
+      <td><a href = "#">hoME</a></td>
+      <td><a href = "#">Marquette</a></td>
+      <td><a href = "#">REVIVE</a></td>
+      <td><a href = "#">Work</a></td>
+      <td><a href = "#">Contact</a></td>
+    </tr>
+  </table>
+</div>
+
+<div id = "icons">
+<a href="https://www.facebook.com/icevisions/" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="https://www.instagram.com/ice_visions/" class="fa fa-instagram"></a>
+    </div>
+</body>
+		
+<script>
+	
+	// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+// Get the navbar
+var menu= document.getElementById("menu");
+// Get the offset position of the navbar
+var sticky = menu.offsetTop;
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    menu.classList.add("sticky")
+  } else {
+    menu.classList.remove("sticky");
+  }
+}
+	
+</script>
+<html>
