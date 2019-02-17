@@ -9,15 +9,14 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 #logo{
-  font-size:75px;
-  margin:25px 50px 25px 100px;
+  font-size:50px;
+  margin:25px 0px 25px 30px;
   text-align:left;
 }
 #menu{
   width:100%;
-  margin:auto;
-  background-color:rgb(50,100,200);
-  padding:20px 0px 20px 0px;
+  background-color:#77a8a8;
+  padding:5px 0px 5px 0px;
   left:0;
 }
 table{
@@ -26,17 +25,49 @@ table{
 table a{
   text-decoration:none;
   text-align:center;
-  padding:20px;
+  padding:5px 20px 5px 20px;
   color:white;
 }
 table a:hover{
-  opacity: 0.6
+  color:#e4d1d1;
 }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:#e4d1d1;
+}
+
+.container {
+  border-radius: 5px;
+  background-color:#77a8a8;
+  width:80%;
+  margin:50px 0% 50px 10%;
+  padding: 20px;
+}
+
 p{
-  color:rgb(50,100,200);
-  font-size:30px;
-  text-align:center;
+  color:#77a8a8;
+  font-size:20px;
   padding-top:10px;
+  text-align:center;
 }
 #intro, #transition{
   margin:100px 50px 100px 50px;
@@ -53,42 +84,39 @@ p{
 .sticky + .content {
   padding-top: 90px;
 }
-
 #social{
   width:100%;
   text-align:center;
-  margin-top:100px;
   float:left;
 }
-h3{
-  color:rgb(50,100,200);
-  font-size:20px;
-  text-align:center;
-  padding:10px;
-}
-</style>
-
 #icons{
   text-align:center;
   font-size: 40px;
   margin:auto;
 }
 .fa{
-  padding-top:10px;
+  padding:1%;
   height:50px;
   color:white;
   width:30%;
   text-decoration: none;
 }
 .fa-facebook {
-  background: #3B5998;
+  background: #77a8a8;
 }
 .fa-linkedin {
-  background: #007bb5;
+  background: #77a8a8;
 }
 .fa-instagram {
-  background: #125688;
+  background: #77a8a8;
 }
+h3{
+  color:#b9b0b0;
+  font-size:12px;
+  text-align:center;
+  padding:10px;
+}
+
 </style>
 </head>
 
@@ -96,25 +124,44 @@ h3{
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <body>
-
- <p id = logo> Ice Visions</p>
+  <p id = logo> Paula Van Camp</p>
   <div id="menu"> 
   <table>
     <tr>
-      <td><a href = "#">hoME</a></td>
-      <td><a href = "#">Marquette</a></td>
-      <td><a href = "#">REVIVE</a></td>
-      <td><a href = "#">Work</a></td>
-      <td><a href = "#">Contact</a></td>
+      <td><a href = "https://Paulavancamp.github.io/index">Home</a></td>
+      <td><a href = "https://Paulavancamp.github.io/index">About</a></td>
+      <td><a href = "https://Paulavancamp.github.io/index">Gallery</a></td>
+      <td><a href = "https://Paulavancamp.github.io/index">Work</a></td>
+      <td><a href = "https://Paulavancamp.github.io/contact">Contact</a></td>
     </tr>
   </table>
 </div>
+  <div class = content>
 
-<div id = "icons">
-<a href="https://www.facebook.com/icevisions/" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-linkedin"></a>
-<a href="https://www.instagram.com/ice_visions/" class="fa fa-instagram"></a>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your Name">
+
+    <label for="lname">Email</label>
+    <input type="text" id="lname" name="lastname" placeholder="blah@email.com">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Type Message" style="height:100px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<div id = "icons"><br>
+<a href="https://www.facebook.com/paula.vancamp" class="fa fa-facebook"></a>
+<a href="https://www.linkedin.com/in/paula-van-camp-2b309512b/" class="fa fa-linkedin"></a>
+<a href="https://www.instagram.com/pah_la_/" class="fa fa-instagram"></a>
     </div>
+    </div>
+  <footer id = "foot">
+    <h3>Paula Van Camp | 2019 </h3>
+</footer>
+  </div>
 </body>
 		
 <script>
