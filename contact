@@ -128,10 +128,10 @@ h3{
   <div id="menu"> 
   <table>
     <tr>
-      <td><a href = "https://Paulavancamp.github.io/index">Home</a></td>
-      <td><a href = "https://Paulavancamp.github.io/index">About</a></td>
-      <td><a href = "https://Paulavancamp.github.io/index">Gallery</a></td>
-      <td><a href = "https://Paulavancamp.github.io/index">Work</a></td>
+      <td><a href = "https://Paulavancamp.github.io">Home</a></td>
+      <td><a href = "https://Paulavancamp.github.io">About</a></td>
+      <td><a href = "https://Paulavancamp.github.io">Gallery</a></td>
+      <td><a href = "https://Paulavancamp.github.io">Work</a></td>
       <td><a href = "https://Paulavancamp.github.io/contact">Contact</a></td>
     </tr>
   </table>
