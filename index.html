@@ -4,137 +4,282 @@
 		<title>PVC</title>
 		<style type="text/css">
 			
-			@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
 body{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
-#logo{
-  font-size:75px;
-  margin:25px 50px 25px 100px;
+h6{
+  margin:10px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns:auto auto;
+  grid-gap: 5px;
+  Width:100%;
+}
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.item1 { 
+  background-color: #6F1543;
+  color: #EDB9D4;
+  grid-row-start:1; 
+  grid-row-end:2; 
+  grid-column-start:1; 
+  grid-column-end:2;
+}
+.item2{ 
+  grid-row-start:1; 
+  grid-row-end:2; 
+  grid-column-start:2; 
+  grid-column-end:3; 
+ background-color: #EDB9D4;
+  color: #6F1543;
+}
+.item3{ 
+  grid-row-start:2; 
+  grid-row-end:3; 
+  grid-column-start:1; 
+  grid-column-end:2; 
+  background-color: #EDB9D4;
+  color: #6F1543;
+}
+.item4{ 
+  grid-row-start:2; 
+  grid-row-end:3; 
+  grid-column-start:2; 
+  grid-column-end:3; 
+  background-color: #6F1543;
+  color: #EDB9D4;
+}
+/*
+.item1:hover{
+  opacity:.9;
+}
+.item2:hover{
+  opacity:.9;
+}
+.item3:hover{
+ opacity:.9;
+}
+.item4:hover{
+  opacity:.9;
+}*/
+#section1{
+  display:none;
+  text-align:center;
+  font-size:16px;
+  padding:0 20px 20px 20px;
+  margin:auto;
+  color:white;
+}
+#intro{
+  padding:0 20% 0 20%;
+}
+#section2{
+  display:none;
+  padding:0 50px 20px 50px;
   text-align:left;
-}
-#menu{
-  width:100%;
-  background-color:#c5d5c5;
-  padding:5px 0px 5px 0px;
-  left:0;
-}
-table{
+  font-size:16px;
+  padding:0 20px 0 20px;
   margin:auto;
 }
-table a{
-  text-decoration:none;
-  text-align:center;
-  padding:5px 20px 5px 20px;
-  color:white;
+li{
+  margin-left:5%;
+  display:inline;
 }
-table a:hover{
-  color:#e4d1d1;
+#section3{
+  display:none;
+  text-align:left;
+  font-size:16px;
+  padding:0 20px 0 20px;
+  margin:auto;
+}
+#section4{
+  display:none;
+  text-align:left;
+  font-size:16px;
+  padding:0 20px 0 20px;
+  margin:auto;
 }
 
-p{
-  color:#c5d5c5;
-  font-size:30px;
+#icons{
   text-align:center;
-  padding-top:10px;
+  font-size: 40px;
+  margin:auto;
 }
-#intro, #transition{
-  margin:100px 50px 100px 50px;
-}
-.content {
-  padding: 16px;
-}
-.sticky {
-  position: fixed;
-  top: 0;
-  left:0;
-  width:100%;
-}
-.sticky + .content {
-  padding-top: 90px;
-}
-#opening-pic{
-  width:60%;
-  margin-left:20%;
-}
-#mission{
-  margin-bottom:100px;
-}
-#news-link{
-  display:block;
-  float:left;
-  margin:50px 0px 50px 0px;
-  background-color:rgba(50,125,50,0.8);
-  height:300px;
-  box-shadow: 4px 4px rgba(132, 161, 188, 0.6)
-}
-#news-link p{
+.fa{
+  padding:1%;
+  height:5%;
   color:white;
+  width:30%;
+  text-decoration: none;
 }
-h3{
-  color:rgb(50,100,200);
-  font-size:20px;
-  text-align:center;
-  padding:10px;
+.fa-facebook {
+  background: #3b5998;
 }
+.fa-linkedin {
+  background: #0077B5;
+}
+.fa-instagram {
+  background: #515BD4;
+}
+			
+			
 </style>
 
 </head>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 <body>
-  <p id = logo> Paula Van Camp</p>
-  <div id="menu"> 
-  <table>
-    <tr>
-      <td><a href = "Paulavancamp.github.io">Home</a></td>
-      <td><a href = "about.html">About</a></td>
-      <td><a href = "work.html">Work</a></td>
-      <td><a href = "contact.html">Contact</a></td>
-    </tr>
-  </table>
-</div>
-  <div class = content>
-  <img id = "opening-pic"src = "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/5/25/525edc44-3721-5dd3-af8d-117c5ed1e039/5a57fb3b62eda.image.jpg?resize=1200%2C782">
-<div id = "intro">
-<p id = mission> Working to create a world of valueable relationships with the world and everything it contains. Read about how I'm making this happen <a href = #>here.</a> 
-  </p>
-  
-   <div id = news-link>
-      <p> Hear the latest and greatest about Ice Visions! Read articles in the local news and learn more about events and appearances!  </p>
-     <table id = news-logos>
-       <td><img src = "https://www.coulterlambson.com/images/George-in-St.-Louis-Magazine[1].png" height=75px>
-         </td>
-           <td><img src = "https://bloximages.chicago2.vip.townnews.com/central.leetemplates.com/content/tncms/live/global/resources/images/logos/ds/stltoday.com.png?_dc=1527731373" height=75px></td>
-     </table>
-    </div>
+<div class="grid-container">
  
+  <div id="title1" class="item1">
+    <h6>ALL ABOUT ME</h6>
+    <div id = section1>
+      <h3>Paula Van Camp</h3>
+      <img src = "https://scontent-ort2-2.xx.fbcdn.net/v/t31.0-8/18699382_1337143429708908_8526657960948206413_o.jpg?_nc_cat=100&_nc_ht=scontent-ort2-2.xx&oh=7af76d945bb563e6142d49f547e06251&oe=5D19C36E" width =50%>
+      <h4 id = intro>Paula is an engineer and  environmentalist. <br>She driven to create a world in which the inherent value of all things is understood and respected.  <br>Paula loves to create and refurbish furniture, to ride her bike, and make gadgets for her many plants. She is a spirited student at Marquette University and Co-Founder of REVIVE. You will find her anywhere the sun in shining.  <br><br>If you need to get a hold of her, send an email to:<br>paula.van.camp@gmail.com<br><br>Or reach out on social media!</h4>
+      <div id = "icons"><br>
+<a href="https://www.facebook.com/paula.vancamp" class="fa fa-facebook"></a>
+<a href="https://www.linkedin.com/in/paula-van-camp-2b309512b/" class="fa fa-linkedin"></a>
+<a href="https://www.instagram.com/pah_la_/" class="fa fa-instagram"></a>
     </div>
-  <h3>Paula Van Camp | 2019 </h3>
+    </div>
   </div>
+  
+  
+  <div id=title2 class = "item2">
+    <h6>GIRLS WHO CODE</h6>
+    <div id = section2>
+      <p>I am the level 2 instructor for Marquette University's Girls Who Code club. In Level 2, we learn HTML, CSS, and fundamentals of JavaScript. These skills, and insights about best coding practices, provide the necessary education needed to create beautiful websites.<br> Each student works hard to understand all three languages and applies their understanding to their final project in which they design and implement a website of their own. This year's class projects can be viewed below.   </p>
+      <ul>
+        <li><a href = #>Eva Barth</a></li>
+        <li><a href = #>Jane Christenson</a></li>
+        <li><a href = #>Krithi Gopinath</a></li>
+        <li><a href = #>Stephanie Hoffman</a></li>
+        <li><a href = #>Jazmin Lara</a></li>
+        <li><a href = #>Izzi Milan</a></li>
+        <li><a href = #>Izzie Nilesen</a></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li><a href = #>Macy Vonk</a></li>
+         <li></li>
+        <li></li>
+        <li><a href = #>Tessa White</a></li>
+        <li></li>
+        <li></li>
+        <li><a href = #>Sophia Wichgers</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  
+  <div id = title3 class = "item3">
+    <h6>REVIVE</h6>
+    <div id = section3>
+    <p>Revive is a plastic recycling workspace located on Marquette's campus. Myself and co-founder Colleen Dunlap have been working hard to launch the program and create a closed loop recycling system that is open to all! More to come :)  </p>
+    </div>
+  </div>
+  
+  
+  <div id = title4 class = "item4">
+    <h6>JUST FOR FUN</h6>
+    <div id = section4>
+    <p>In this section I will have some fun madlib forms and drawing activities</p>
+      <br><br>
+      
+      <h3>Comment Form</h3> 
+<p>Name: <input type="text" id="myName"></p>
+<p>Message: <input type="text" id="myMessage"></p>
+<button id="button">Submit!</button>    
+    
+<p id="placeHolder">Your Comment Goes Here: <br></p>
+      
+      
+      
+    </div>
+  </div>
+    
+</div>
 </body>
 	
 <script>
 	
-	// When the user scrolls the page, execute myFunction 
-window.onscroll = function() {myFunction()};
-
-// Get the navbar
-var menu= document.getElementById("menu");
-
-// Get the offset position of the navbar
-var sticky = menu.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    menu.classList.add("sticky")
-  } else {
-    menu.classList.remove("sticky");
-  }
+var section1 = document.getElementById("section1");
+var button1 = document.getElementById("title1");
+var expand1 = function(){
+      section1.style.display = "block"
+      section2.style.display = "none"
+      section3.style.display = "none"
+      section4.style.display = "none"
 }
+var collapse1 = function(){
+    section1.style.display = "none"
+}
+button1.addEventListener("click", expand1);
+button1.addEventListener("dblclick", collapse1);
+
+
+
+var section2 = document.getElementById("section2");
+var button2 = document.getElementById("title2");
+var expand2 = function(){
+      section1.style.display = "none"
+      section2.style.display = "block"
+      section3.style.display = "none"
+      section4.style.display = "none"
+}
+var collapse2 = function(){
+    section2.style.display = "none"
+}
+button2.addEventListener("click", expand2);
+button2.addEventListener("dblclick", collapse2);
+
+
+
+var section3 = document.getElementById("section3");
+var button3 = document.getElementById("title3");
+var expand3 = function(){
+      section1.style.display = "none"
+      section2.style.display = "none"
+      section3.style.display = "block"
+      section4.style.display = "none"
+}
+var collapse3 = function(){
+    section3.style.display = "none"
+}
+button3.addEventListener("click", expand3);
+button3.addEventListener("dblclick", collapse3);
+
+
+var section4 = document.getElementById("section4");
+var button4 = document.getElementById("title4");
+var expand4 = function(){
+      section1.style.display = "none"
+      section2.style.display = "none"
+      section3.style.display = "none"
+      section4.style.display = "block"
+}
+var collapse4 = function(){
+    section4.style.display = "none"
+}
+button4.addEventListener("click", expand4);
+button4.addEventListener("dblclick", collapse4);
+
+var submit = document.getElementById("button");
+var customize = function() {
+   var name = document.getElementById("myName");
+    var message = document.getElementById("myMessage");
+    var placeHolder = document.getElementById("placeHolder");
+    placeHolder.innerHTML += "<br>" + message.value + "   -"+name.value+"<br>";
+};      
+submit.addEventListener("click", customize);
 	
 </script>
 		
