@@ -82,9 +82,55 @@
 </body>
 	
 <script>
-	
 var section1 = document.getElementById("section1");
+var section2 = document.getElementById("section2");
+var section3 = document.getElementById("section3");
+var section4 = document.getElementById("section4");
+
+/*This will animate the screen when loading the page*/
 var button1 = document.getElementById("title1");
+var button2 = document.getElementById("title2");
+var button3 = document.getElementById("title3");
+var button4 = document.getElementById("title4");
+
+var height1 = 10;
+var grow1 = function(){
+  height1++;
+  button1.style.height = height1 + "px";
+  if(height1>800){
+     clearInterval(first);}
+}
+var first = setInterval(grow1, 1);
+
+var height2 = 10;
+var grow2 = function(){
+  height2++;
+  button2.style.height = height2 + "px";
+  if(height2>800){
+     clearInterval(second);}
+}
+var second = setInterval(grow2, 5);
+
+var height3 = 10;
+var grow3 = function(){
+  height3++;
+  button3.style.height = height3 + "px";
+  if(height3>800){
+     clearInterval(third);}
+}
+var third = setInterval(grow3, 7);
+
+var height4 = 10;
+var grow4 = function(){
+  height4++;
+  button4.style.height = height4 + "px";
+  if(height4>800){
+     clearInterval(fourth);}
+}
+var fourth = setInterval(grow4, 8);
+
+
+
 var expand1 = function(){
       section1.style.display = "block"
       section2.style.display = "none"
@@ -97,10 +143,6 @@ var collapse1 = function(){
 button1.addEventListener("click", expand1);
 button1.addEventListener("dblclick", collapse1);
 
-
-
-var section2 = document.getElementById("section2");
-var button2 = document.getElementById("title2");
 var expand2 = function(){
       section1.style.display = "none"
       section2.style.display = "block"
@@ -113,10 +155,6 @@ var collapse2 = function(){
 button2.addEventListener("click", expand2);
 button2.addEventListener("dblclick", collapse2);
 
-
-
-var section3 = document.getElementById("section3");
-var button3 = document.getElementById("title3");
 var expand3 = function(){
       section1.style.display = "none"
       section2.style.display = "none"
@@ -129,9 +167,6 @@ var collapse3 = function(){
 button3.addEventListener("click", expand3);
 button3.addEventListener("dblclick", collapse3);
 
-
-var section4 = document.getElementById("section4");
-var button4 = document.getElementById("title4");
 var expand4 = function(){
       section1.style.display = "none"
       section2.style.display = "none"
@@ -144,6 +179,7 @@ var collapse4 = function(){
 button4.addEventListener("click", expand4);
 button4.addEventListener("dblclick", collapse4);
 
+/*Comment Form*/
 var submit = document.getElementById("button");
 var customize = function() {
    var name = document.getElementById("myName");
