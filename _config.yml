@@ -1,2 +1,4 @@
 name: Paula Van Camp, PVC
 markdown: kramdown
+
+theme: jekyll-theme-cayman
