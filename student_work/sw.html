@@ -1,0 +1,698 @@
+<html>
+  <head>
+    <style> 
+    @import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+header {
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+  line-height: 500px;
+  text-align: center;
+  font-family: pacifico;
+  color: #00000;
+  font-size: 100px;
+  background-image: url("https://data.whicdn.com/images/314604425/original.gif");
+}
+
+
+.NAV{
+  float: center;
+  height: 15%;
+  width: 100%;
+  padding: 0.5%;
+  background: none;
+  border-radius: 10px;
+  color: #cc99ff;
+  font-family:styleSheet; 
+  text-align: center;
+  background-image: url(""); 
+}
+.Navigation{
+  float: center;
+  height: 30%;
+  background: #cc99ff;
+  padding: 1%;
+}
+
+.intro {float: center;
+height: 25%;
+width: 100%;
+padding: 3%;
+background: #cc99ff;
+border-radius:5px;
+text-align: center;
+color: #757CF9;
+font-family:styleSheet;  
+background-image: url("https://i.imgur.com/yP78D6d.gif");
+}
+
+
+.BTS2{
+  float: right;
+  height: 10%;
+  width: 30%;
+  padding: 2%;
+  background: pink;
+  border-radius: 5px;
+  color: black;
+  font-family: styleSheet;
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTEhMWFhUXFxkVGBgXFxgXFRcYGBgbGBgaHhUYHSggHRolHhcXITEiJSkrLi4uFx8zODMtNygtLi0BCgoKDg0OGxAQGi0lHyUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLTctLf/AABEIALcBFAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAAMEBgcBAgj/xABGEAACAQIEAwUGAwQIBQMFAAABAhEAAwQSITEFQVEGImFxgQcTMpGhwSNCsRRSYvBygpKissLR4SQzU9LxFUNzFhdEY6P/xAAZAQACAwEAAAAAAAAAAAAAAAAAAwECBAX/xAAmEQACAgEEAgMAAgMAAAAAAAAAAQIRAxIhMUEEIhMyUTOBQlJh/9oADAMBAAIRAxEAPwDRhXaVKlUamdpUqVAHRXa4K7QAqQpVDu8VsLJa6gjeWGlSCTfBOpVGweNt3RmturjqpmpFBDVcnaVKai4/GraQs3oOZNQ3RKTeyJRNdmqSe1V52KqgUepaOuu/pRnhnFWOlwev+1K+aN0NlgmlYdmuV5V69U4RZ2lXJrmagD1XKVKgkVKlSoAVKlSoA4a5XTXljQBylXJpTQBw1w12uGgDya4a5ccASTA8aYGMtkgZ1k7DMJMbwOdAUPVw0prlAHK5Xa5UUBLpUq8M1SWPTuAJJ0FBcXx+DCJI6mnOL4iAvQn7VALrpmUa6DUDMfAHeub5efIpaMZ0fFwY9Ouasl4btCCYZI0mQdPlFGFvgiQZBqvYqwkAiBp9uhrnDMQVleUyPvU+N5E3P45lfJwQUPkge+1eOfJ7q22UsNTzAmPsayvHcIvm7AUkTofSd6v3a7B3LhVrWswhG3MwZ6akfKvXDeF3SrKxIOX4tRDDXSRqNI3rXKaT3LYEljTA3Z66+GUNmIaZynmBup89Y8xWk4bFB1DKZDAEeREisx4rw3F5gQAQCFYQ35jAgkAHcbVe+EJktokzlUL8hFMg7MvlxWzDBeq3x3FAXQrbFQB6sQT/AD0o8aEcUw6s6Ow+ExPgapmVxI8elIHYbh1uC4aQvMcutecVxQKTBPw7+O/8+dHkw6IMoJIInUkk67TUHiWBsyqhQQTJmTsCYrGofhscv0IcGuk2bZbcqD5A7fSpmIxSohdjoBJodh3gAelD+1DsbBKicpDEdRsf1n0rocROYoqU/wCyr9oe1uIuHIh92pM92c0dC086kdnuO3kAJYuB8QaTv56+tSOG8LBIDW21GhKnn6UO4vgsQpYKmgMgiNI8N48xzrLrd7nR+ONUaXg8UtxFdTKsJFSJqu9kUKYW2G0JzNHTMxYfQj5mimKxJVGK6sFJHnGn1rXHdHLntJoqXbT2kWsJcNi0ouXB8ZJIRD001LfKKqfD/a9ii0NZsv5ZknyJJg0B4LwpcbcdzmYnXUHfQnzJ1+dT8Z2RxKStmwpYbQ1sT4gMwJ9KtcE6Y743V1sbHwDjtrF2veWj4Mh+JG6GP1GhonNZB7Kbd9MbeQoURbbI+sqbgZIM7ZtSdORrWM+lQ6EytM7iL4USaqvEGuXX1Jy7x+lE+NYnIubcA6+VRcJis6llAMbwQRy5gnqKyeRcvU6HiJKOvsbw9phBkg8qO4PE5l13G9A/2pmE8gYbRhB1H5gPmKd4I7HMzSAdB4gTrVcPrKi3lJShqD4NcZqbDUzffStpzVyY32+47exdyLc+4UkIBs0aBz57jwiqw3D7ocKQAYDabwRIM1beznZHEe+y3D3QxECZIXYdACOcmvXaTgWKuMTbRS2YAorAPkgRvpEg8+VJ1b0dRadJK7BdpHt31w73DctOcozSSjnaCdYJ0jx5QZ1WawPgfAsS2KAVW/Cu21c6d3WQTrrAXlW7h6ujHnabuhylXkGu1YRZMpl6eNRMTiFXnr0qGMQP4uTAgTJg+UGpltE933gD0mNTy3plLfvI11BmOTSIjz6daj4m4ttSl1WKbhgJjzFZsiqVmzG7jRH4tZzqWmMugBUHkJAnx5g/OmOGYdgBJmKdsAtAAIUbA7+vjROyijSR8xVseJXqfIrNmbWiPAziLZj6/LWpNzGjIpn6EjbwoZx3j9mwIZhJBM/lEb68z/CJJqRw9C1tLlpoS4i3FkTKuAR5HWCOtGdV7FsLVaWLG4gNkQGeZ06aTFTcNbgVA4ybWFs+9vOFZyqhmMAEkEfOPQA+NMYbi7sBlCAciDmkT3SCYGogxrvz3puKLUbM+V6pbB5qhcSw7e7LBZnRRtJiR6aUKOIuNOZ25+HLoDtUnGcYum3kAUZACAAZbLqoO8TBHr41fSQpVweLV0EfiFkMRoWAPiI514w752OkKoAUc/P6CiF/E2/dC7IKsAV0JLTqAANSf9DQzBYq2pOY5vejOLi6oI2EdIf6eFIjhkpf8NE86cQlbWvV63II6iKWGuq2qkH+elPMK0NbGSL9kxrD27YAuZVDmJOgJ9T5V5xKW2tkqELmVJWCdeUj0qM92GylcymDGkg9alDCs8QBbRTmIMHbUluUVhap0dBtabPdpY0iPpXX2oHwbtAMQtzKGVLdwqCTMqc2UhjryBg7TziaJrfAzS2gnUnkpg6+cj0rXq0y0sxPE3HWQsDw21a95kEGWcCdJcktptuWooMpBYqM2pB0LR10mKF4++oGaQVIg9GB5fpFP2sWHUC0Gk6EtuKRkVM045XEkcLAAJGkkk+Jnf6URagzP7hlDSVYE/0dYB8tDRWxikcd1gfXX5U/HWlGTLepkXH25U1FsYpAVWVXujTaIOukfzFEr61XMVj/AHNzuhWJMQTsTJGvodKrmjasd48lwwvxq6DbMeQ8Z2pjgmJa4gZgBOkCYEaRr5Uzb73fuMNBP8K+Ov61FwN5kdBmMNOYHYFizLpyIBRd9waTh3k2NzL10llmo180xisSUQszAAEA+ZKr/mrhvyK0Rnq4M0sThyMpilUgEqDLfEY5acuhqfiLwySIMjcRBoNcv5WzZQ3h/vU7B2Gv6sQqxmInQD+Jj/tSJxaZpUoyV/hBwAUBiqgZnJJ0liec+VFbJ0qnYrj6LiZtg+6ELHVf+ofHoOmmm9W/B3VdQyEMp2I1FPUHHkzZJatyUBXaQpVYTY5duSQoMTz6Ab1JOAtkap68/nUBG/FWehH8/Ki9uIqjZpeyAWJwhtPIYlT13B868cZZXS3cLhR7xFuKTBaToV8TpPLc8qM47DZ1030PgfD12qp8dw3d2lkIuKPFDMeokecUbPkI880OWL0NlB55ZHPXlRFsOACSsaTtGo1H1qB2TwwuM97OCMxC+JMNm/vRVk4hiEt2yzxl2g8zyHnNVnG5FoT0RpIonHeH+9w921uxSR/TXvAfMCrH7M8St/h1kbm3KMOhUyP7pX51GNsxp5/ehHZniqYS9fsK9u2xLXQLzZLbW2763Fb95O+GU6sqiD3aet1QmTdbEP2s4j9qxWHwFv4V/Fux+WdB6hc39sUXwyBQOQERppA15eX0oLgAl28+JGYi6AEZhDtbXXORyNxy7xyGUcqOqIE6j166evPx+8t9B0OKZEwY15ec6nwpXB1nQkajTp6mRTXDGDW9eYbXw166CpDkTPLnEA6kzsB41BUD2cYDhcThWChrX4touJGVGFz1gDMN9Z6RXP8A1UYgYPJObI5ug6fAjDMY2JVM0fxr1pzjXD3cBgsuCypzNwAZrlkzu4k3EH5gbq9Kd7LcDlmN0ZQAGuz/AO3bkXMrmdLlwqpK7qimYLxV7WkiuxFipBBIOokH1+x+VEMZx23atF21hQxAjSY36anTzFRcWkAmdjzeRuBsNyZPPpVXvvmwOLPMqD8sRaJ+n+GoirZW9yydksccShxDCCblwRyChbeRZPgGPnO0177ecYezhfcqVDXYzEfEEM9yPEKZPIGNMwqH2H4kMPhGRgcpthwY0kkyWb8qnaT/ANIjdlBA47DPi8ZbtuxAIzMYgokZnYg7NkUaHYBF1Iq8ccVNyLym3GiX2ewTLhlLEg3GNwL/AAAZVY+J70eEHnXvjV0paZgdSYE6yxJM+PNqLXDJmAomAo2VQAFXyAAHpVa7UXtUTzY+HIf5qle0it0jnB75dNybiNoIEGYgkg76ERHStK4VYQOFPcDd4TGo6CD1kelZV2dxot3TP8EcgzZgAPUkD1rU+J8etWVe7K5SgySNIIXvEbkDQAcyYEE0rNjTlTReE5JbEXjoF3EFFaIhFMSARAjTXcmgtyyc0AggGARrMHQ69d6n8OfQ3CTohadMwZu6pgAAsMxIjTT0qLd3iPIE6fJfQadPE0sstgy2DZMA1xSxfI1wCY0EkKOkgfWq72WwX7SApeC2S8GjcgloG+hzAdYnWda0oYcZAkaBQvhAEVnXY+xcwt822tvltXLlrNkaPdhS1sg8xlKCatHgU3uT7y27wYAiO6eeXMpDFTtIzCDyI8DVe4xd95iAgYkq2diDICxosagliI12AJ5Ub7O8KuX7akAopGYm4CBJ1IE77nai+J7HGA1m6jXPzBhlBHKCJM+dUhjcW2NzZk6RXr95mUKxkf7AaxvGUV4wNwq4QfCQdPEdOlE8XwO/bYBgJylpDd0axJYwBHj1oL2hwmJsKty3aZm2GVTcBDaSAnnpTFGuBbnfY7xXG5Xt21+K46qPAFgCf5+1PdqeLvh8O2GCjNdecyyCUcswUruIyldNCo5ZjlCYXhOKt3rdzF2yn4iMzXGVYUGTpOw7ghfLnRjD9qbeHd/dWRduloF64YIAGUBVIJAA03kzr0q9JFNVDXC+wkpmxOIt23ILZCwzfCScx/LBEnQwAfQtwHsybFyRjsOVMl0DTKgTm30I69KovFWJKSdSxZiTqYBOp8T96r+LQd4CDqfWoe5V5JM+hF4Q51VkI5EHQ/Su1TuwV2cDZg7Zx/fauVFIjUwtiHOYaHlqCNDPiaL4TFBtj59R6UGxgAYGOonpUnDgDUfPnSqN7DqmaHcZwQZC0d5e8I3J6Ec5ph+KLaE3nREkDOzKqgnYEsQKF8U9oXD7WQG+LufnaBuBR/ER9pNCTFSkohXg3DlsWgqgDUsY5liWPy2HgAKqfarj6vjrGDUzkzXrn9Ij8NJ6wSxHiKuPAeIWcarNhrodUIVjlZYYqGghwORG08+lCn9meEGIt4kXLq3hq7EkrduOuUsQ4MHU91SANNNKvGO9sXLIuhrDtPOqJ2qwy3MUq3AsLaMTEznYDX905o12OU6QZ1JeAC3Oa6CZ2A1j5786rXHsLgDddL2Fe4coSffMujAMYyxrrp5mrJESyRIvDUAGnKFgqTAUQI02AH6mi37LNp3uXVtIo+NwQNthtm35TOnhQUdrlsZlw1og/CWuEXCOWmkdOWpPQQan2r4jdvG2L9wuzEvv8IYQABsBE7RRRWWT8LRhO0WFt2wLYu3AsKGaLatp3YUy0GOcHw1ipnDe1+GYEYjCvbn89tjcXeNAdjMk+XpWdXJgmNI28Y0/UVY7VjIohpJhjA0UAARPUwNI09Iooo5Nl9fieASxcz4hHstlYAH8VSsahFhwy9whhqDrpFR17Y4BEFm3auvbIggBVBzHvE5mkk7liZNUPEqpJJkusZQNvGT0+utCA0qFmADDdQuYgfT9PGpI1M06zx3AYl3srZvD8PMYyhQQw7oIJhvnEHSol7hWFFh7S++WVuIZKv3LkgHlqpZW25VWew1oi9dgQBEdAsk/6fKrZjT+JBiDafTnoV/1NAWyXwDsxZe1bRbqu9nQF0hlMnYSdYE6HkDXrHdlGwvvsQH9413KrGMvu0ESBqZkqknw8aG4PiaWbmRw2d3QpBIkkZpBBGxJB9OtW3h3am1dK2b0K1y2Hn/2yrkIFzGDmJIERzqbLa2Z1iL7ByATEggQP3obUCRprvy0oN2lH4ynrbH+Jv8AWtH4x2auW2m2PeKZIOgZegOuukaiqt2i7JY1mR1w7MMpBAILCDzE+P0PSmwastqRQMb9xPl/5g+lTcdxG7eAVm06AAAsfzGN2MnU9T1qde7IY+4zImFuZgoJDQgAOoOZyByPPlXG47a4ez2bNuxicQr96/cTPbtMIGW2JGYgzLaa6axrOWiYzUTRL9l/cAW1JZn0AnZRlBJ10kt8qd4LwC60++IUEqVEd6QRACnUaTqevhWUcT7UYzEFTdvt3fhCZbSj+rbCgnxMmnuyeOvtjsMBeu637Y0uPqM4JG+x1B86z0VeR9H0YMIY1PrrP+n0rPLGKxVhyQ7vbPfKsxPxO+muwGXlVmse0ThjO1v9qVWRire8V7aggkHvuoXcHnQ3G8Vtq0IEuWyoIcMCNWaBIkR/3CpFkLiHtAs210t3Sx6AED+sx+1VvEdrMZek4fDsoO7BWuv4d6Mu/gatuD40ptwLC90kQWHU88tN8K7V4cMbTKbPegggZASeo21MydNaAKC+Lvufe3Qz3h3S978igmIQwfHlv5VXO0uJc3Vt+8ZzGrSQMpk5VUHRSQZ61t3aDhVq+uYkBl2ca6eP7w/SKwLCMb103IgEkgdANFHyAoAP8OV2cPcYvylmLGBtqeW1GDZXfKJmZqFgQJgbKoHrufqTREmBNAFf48/4iDlDf5R9zQ+5tTnEMXmuRvG3UknX9BTTmgDUOwlpkwdueZZh5FjH019aVTezixhbIP8A00/wilQBPxq6eWv8/WmzxDD4a2buLue7t7KPz3G3yqu7adKmdq+PnCYW7fVLcqsKCvdLscqgwZjMwmIrCO0najEY6773ENoJFtBolpSdgPHSWOpjyiqiPlnbVIm9re1FzGXDuthWJtWp+EHSWjd4G5mJIGlV1dTH8/z/AK11mO3WvaKBtVhBt3sGtxhMSeuJ/Sza/wBav/GI93/WH3rOfYNj1NnE2PzLcF3zV0CfQ2/qKv3GT3l15HT70ADkqi8YuZr9w/xsPkYH6VeWuZQT0BPy1rOrj5mk7mSfWgCuYgqLjMxYBZkLGZmnQAnYePIAmgxJLm47SY/kDwovi7wN9gbegMa6yf3o6nqdhEUM4sCWVQSQJ0jbqdANfEigCdgWDlVYqogSTyRDOsSSSxAA8KL8KlnuEyIyqAeR1c+vfUHyqLwnAe7T3h+JhOvSdPEdf5FSMM4Fg3GfKGLEb5mPIAdcsanbTwoA941bedyDKCZY6S2slfAdaEcLtBg5bNAYkkCWiFB3MaHma93cRmIQqYA0QGIHKSQdT/O9eMCk2pESWuGOWjEET5CfQ0AWfsVaCtfIM5soWYBIGYkkDn3gPSjWMsksWmALbbATJIA/Q0C7FsVNxWB/KwkawwMHz0I9PGrEr5mf+mF9EGo/tE0AN4vDqbdu6yBjbGcAnLqihxqAedsUzjuMLZD5bSBrds5SQxHda1aAzEDT8QjQn4aLG2MiqYIJCkEToZER6xUoWlkwo3zExux5/T6CgCPaxbPbRnMn3QcgE5QxWTEmofFjcOFK53BAT8x2BBP0FSnU5nHUKoHICTPqZNM8bH4D+UR5mKAKv27xlxcJey3HGZUUw5Er7y2pGh2IMHqCay7DJV69oN4Lh1QyLly8u4P/AC7SknfkXZP7FUkLGtAExqtXsvwwfiNmTAQl/wCypb/LVUGtWj2c4S3fxJs3ZyXg9lsphiGtnug8pGYepoA3fE9nMJeSLuGsXPE20nzBAkelUXjvZXD4G8BhrTW7d9WD952TOD3QM5JBgtpNSP8A7TWbYm1jcZbA/cZZHllUUO4n2JuqmYcSxT21Ze5ez5X7wBjM0ZgCx25UAeuHKQGnmZ9Yg/pUDjWEVtSO9oJ8Jj7/AKUWw6EadBUHi1vunzH6igCHie0Zw2EvBhLZMoHLORkk+EQ3p41mnB4ABbYAD5CT9vkavnaHDhkOYSGAU+f5T8wPnVJw+woAN8DuJ3iSAZ6wT/MfWiPEcQEsFs08t5122qv2V0rzfUSNP/NADVm3A1Gp+dO2MOXdUXdyFHqYmvDmrf2A4crD351aSq9ANiY6nXWgC/YS1lQAaACB5ClUi0mlKgCv+1eyW4fcI/I9tz4gOAflmn0rESR4fWvontPwlsVhruHRlVrihVLTlBzAiY1jTxrND7HuJjT/AIY+Iut97dAFBDgb7cqdirfhfZ5ea69h8Xgbdy22V0e82cHKG0X3cEQw50uL+y/EWo9ziMPedpy27dz8RoUtorCDop5igCzewO2fe4tswgLaWOeYlyCPCJ+daD2kxwS8oPMDkdpMmsn9m/DsRgsajXgy3JKNaYgCGXuk5dCYJI8/Grb2+7RZcQqZASqCY0+IzE+k+tABfiuPUWLhDA92NDPxELy86owuCo2J477yAVIAMmCG12E7REn5+FTrHDL7DMuGvEZc/wABEr1GaJJ6DXwoABcWSG94Njp6+P0pqxwnE3VFzD2S4RiGZQJOYQfEnfbr46l0R3Wf2e+UPP3Zynf57US7PdqrWFFu0wuKpzBw4ACNm0gzOUggREgg+FAFOwrlWK3lcjUZZKsrbbb+nyqdeKW1BHeMQoiD0jbRRRvtvZP7V74MrJcClWSCNBEHlIEeYI8arrjWSZPiNaAGFTKpnV37x8B59PCnOFoPdavl+JhAkn8RiCNhpodeR5yaaxJMEeQ+E8vWmbV0qFAGiiJ8xB0NAFl7KK3vGuZZBhSoInMOYnoCD/WFWLgynv5oze8YmNtYP3qN2Ww6pZRgZFzMwJgSQ2UrEnUADSfHmKlcMaHujLl7+3L4QdPA9KACZJyrBjvDXw161G4rxmzh9b2JRNJy6F2HUKAWPoKF9v7c8OxIHRG9BcUn6Cs97Y//AII6cNwv19433oA0Ts52ls4u9dW17whFUy6hQZJGgGvXcCjOP1QiDsSeg0+vlWW+zHGC3jSpMC7bK+bqQy/TPV97YcTFjDlyuYAiVBy59dFmDoTE+ANAGYdtuLjEXly/BaGUEc2MZm8RIj0PWhNlWImdPn9Ioza4Bea2t1VkMJ6EGdoE7eNQrfDbwJC2rh8AjH9BQBF95Gmx8mH2q6exzDs3EUIQOiKbjkkhbcAhXJjeSQAdyfA0E4f2cxV4rltZQxIDXDlSRrEnXl0rRuG4DCYfDXcI5Dm7b/GIYpcuDfddVVTsuvMncyAa+WiqX22VXyOG74aLYLHI23vNNtufj407wHB38NYw9s4n9oVrq5HvlWItFGIVWT4yAIBJMkztAqwvw1HuC64DMohZ1CjfQbT477UAZ1fuXI7oE+EH/wAUOxztk7yliJYwIHONTyq69s+H23fDWkQK9y6NUGVsqjvarBgAz6U32u4Ph0sXWVMpFpskFgBcZlRGiYkFhyjrQBlHFr75ZdlCA6oOh0ksdSQTI22quWhP61cva1gbWFu2bNpmMqblzMQ2WICRzgkMdf3RVPw5kT12oAlp/PypnEPpSF4bU0Vk60ANiTuIG+9ab7OrY/Zh/Tb9azg1pfs11wx02uNHjsaALoiaUqcUaUqAPUwwPiP1qxmq9c93Bm6u3Q1Nt8QkCd4gwPqCT9qhtFlGT6Mc7Q9m8XjMbjLtmyXQXnUGQuYowtwpYwSOevXpFXHsz2CsYNrN+65/aUDN3dbYZ1KHSNQFYiTEnXoBbrWM7oyAKupHXUzPTXf1qHjbkKTuTVHP8GRwvsZxC4ZrjXWVg7AKXgd0DaFk67a9BWc9uOM27ZvXbdi2b3vLYLXS1yUIEEWyQoOij0O1Xt10qhdtMD7xMQI1CZh5p3x/hiiEm2XeKKKnf7cY5lCi97sAggWUW1AChQvcAJXTYzr6VEXtrxFAuXG4juEkTcLbzM5pz7n4pj0FB1OleH2rTRMopdFkxPbniLe7Jxl38MysZRrBEmB3tCRrO9Odme2GMGKC3b7XkvMVdL0XUOedlb4ZJ/LHSqvhWla5bvZLiP8Auurf2WB+1DWwNKro+ghwTC4hAJKd1QttmORQq6BTt03103qr8T7Ish7hzDxOo9YMjxqyYQ90CnsRxJ1XIMpEfmWYE9d/rSUyk8X+pRrPZ12YBmRRux10UasQdtgd6BYy0isxUllk5Z07s6E+MRWjFrOILpdVrWYZc1nUQfiBVp6DbkTUbh/YG3duf88NaElpUpdA5QJIPi2kdKkU4tAj2f4xrl1cM3wkllPNTpmHSCB8x4mrQTae5nsnMryJP79pyjiI02FV7F9lHw2MD4bEWntjJcTNdVHBG6nlqRuOROmmsbG9msbiVdGxmFsX7l4vbw9p2y3bhSXi6plJGY5NQSvLegqGu2Yjh+JzED8JxqQNdgPMnSsTv45nFsMZ92gtL/RDOwHpnjyAonguymNvvcVMNeZ7YLPmBEQYIzPALTMAamDQnGYN7T5Ltt7baHK6sjQRIMMAaAJ3AscbF+3eP5Gkx+6dGiecE0YHH8Ti76+8edCLaDuoCSNco3PmTzqt4ZS7BElmbRVXvMT0AGpNav2e9kGKVrV+9ft2mR1YoFLnJue/IAbcRBHjQBCwvDLyH3lk3Li3e+rW2dCM2sNl7u55iKPYbHNZZLV++We4YAkH3ZiRL9SdPWpOH7IYtGb3N+2E94wyFyO7OjCJE6nQxsK8cT9ldxpAxAuB5DF11SZ7wg6nw0+lADmJ2Ylraz8WcbnlmEwG6MAZ6164Yq5mm2HYggsSbhKnQ5XYDTqsDyNGcd2PFuyBavvnRRlzFe8QIPxA5Z1260Nw3Br6sua1uZ2DLEDdpJJHmPLWgAR2Uwf7OyW7t1riWMSzWw3w20ZGRcojbvITy0J6zsFlpFZvxfg95e/llCmUlYgankOWtXXssXOGtG4ZYqJ1mRyPnEUAQbxz8VQcrWHJ/rO0foRTXbKWuYWzGl28obplRlvN9LZp3hHe4hi3/dW2n0H/AG05xcq2Lw6ndFu3Y8IFv/PQBlfa3Bm/isRccbuQPAJ3V+gn1qkujpoVkZsoI8NCfpWs4nChy7R8TMfmTVNx2AlgDGjZz4yhEfMz6UADk4DdMaJHUn/anv8A6ZujY2z5E/8AbR/BDur5D9KlsaAK+OCWUHfzu0cmCpO3SfrWhdncEtm0qIIAGvmdyfGqhfEsB4fer5gxpQARU0qSiuUADbg2qcxhNNzoPAnQfUioVypo3XxM+gB+8UhnQRKVYEDYaD0qFimlgPGfl/vUxjpQ6yczsehj7n6k1UgfvJ3aqOKt57lwHYyn0g1cro0PlVVsJLuf4m/Wrw5KT4MNKZSVO6kqfMGD+leLmlFu0+H93jMQn/7C3o8P/moRih3T5VsTIk9jzgNqbxfOpTCLhA07q/4FqLjN6EVb9TduAYr3li0/71tG+ag1Ix23pQnsW84PD/8AxIPkIopjTofKs5dvYGcOuzcufwlR/dn7/SjSGgPBT37s/v8A2H+lG2aFJ6Amhk1SAo7zj1NR+1mCJw5ZdGQrcBGhEHUg8iASfSp3CrcsT0gfei2Kwge2yHZlKnyIipi6aFMo+E9oPEUEC/mIEd9EY7QDMSTpz6mo/aDtzbvXLF04Ky+JFk2r1y6oZWY6SLUQSAoIZiYDsI51X3QgkHcGD5jQ0Gx7w4PQ1u0RfQtpGh4ntheuplRLVgHNPuLYQnNHPUgwuWRyJHOh3BcU4xNol2PfWZJ11G/XYfKh+FGlP4EH3qEcjm+Qn7VWUUoslLc3HCNIruPcqsqSDtIJBidvKonBcRmRT1A+mlSsd8NcwfW4zwfFFhJJJM7nUkGDr6UUiqp2Yvgtft6jJcDCejga+RYN9KtSGgmSRkPtK4tiMNxC2+Huvb/AC909ww7Eyh7p3UajlVo7M+1rCPbC3Vaw6wpUKXtkxupTULpsRpIGtVn2vWP+Isnqrj5FT/mrNsDId+laoJOCESimz6I4L2r4dnvXFxeRrjF3DrlEJO2ZdoOnM9K43HMG933n/qGFZ2tPZTvBdTczDSTBjKviRPOKwym+GWZxFgTE3revSHFTpKuCN6/Z0W3JuW42EEmfQCfmKr3G+FWVButjcMhYAKrvkzHNBknaJ6fSiBTSqj2+4f7zDOQJKRcH9X4v7pNUhTaTBwLPhuFYOyv/ABPELCkKCVV0kf3iTsRoOVQ8GcNi3ZcFdLELny3VNs5RoSGOhjSdBuKyPh9sZZ8uXhUm7cgaE97Q+I6HqNq2rxlXJVo1k8Lw1t1/aMZbFxioW1aIuOddJA5a+XjViTG2ge7aJGkFnMnxIH6VinY21OLtebH5KT9q1u0Ky54fHJJFoxTVsMWsbaI7yMD/AAtp9aVDQKVI1MnSh9hJjxqbbHfHgv8AiOn+E1DXcedTbG7HxA9AJ+5pcjWuD3iHAUk7AEnyGtDeCzBO4bWfE6/eneMXItlebyo+Wv0qN2fQ27a23A7sgGfGdjUEdBa/tVZwS6nxJ/WrBi7wymDyoLgk0q8CkzK/aZhsuOzR8dpG8yCU/RVqo39jWge123F3DsNylwfJlP8AmNZ7dY8jHntWqD2KzCHGrBt3UkQTatk+YGU/4aF401cu3uGA/Z7kyWDLpsRAafr9apWMHKpi9ijfqbX2OWMNaX91AvnAojjjvQ/s33bKGeSj5ipfECQJPLfyNIGdIhcGHeudM32/8UVxBhG8jQfhTwTofiknlRPHmEJ8v1FBaXI9wex3J6kn7fai2TSm8Db7i+Q/SpQWoFGP9rsL7rF3RyY+8H9cSf72YelU7im8itO9p2Eh7V3aQ1sny7y/q1ZnxBD5+VdDE9ULKtB7hryinqAfpU/g11VxC5tjK+rAqPqaC4TG5guUASJIGyxpFTODYjLi7JYSucDXqe6D6Eg+lRLeJH4a12Qud1rZOqH6fzFH8adKq/DHyX/BhB9Nqst55E1zGaa3APDCFxlwDdranzymPXQ/SrbZeRVN/aTbxcxPcjTeJnT5GrDgsVm1HwnY9f8AaosK2KH7Y/iw+u/vNOZjLr5CfqKzvD2AbbuN1cZvAGB95+daV7YcOrYdHyZilwS3MK4IIHmQpI8Ky/gOLW1cKuM1q6PdtB+GdAY9T8/CtOP6bCJbSHS0DWpHZ/iFq3i7LXT3A+p3AJUhT6MVPpTONwxS49snVDHmNwfUEVDvL3TpyPltTOUSb066UPxVsEEEaRUy1czIrDYqD8xNMXhWaJMjHr2H9y72v3XKjyBgH5QajGSZ9B9zRrtRajF3f6p+aLP1mg92ANdh612IO0mJZYewizixH5bbH5lV/wA1ajarK/Z1djFsMw71pvMkMp+e59DWq2q5/l/yF4fUdArtIGlWayw8h1FTcMNN+Z/U1AtqZB8aIYU90ev6mqM0VSIXECWdVMADvTEyT/4pXcUqrqw/sn7nWonGL+W51MAAfX71HsYcucz+g5CoStlW6H2uvd01C9P9hpT9q1FSbFsAV6daYlQu7Zlntjsa4Z5/6if4SPvWbXFrWfa/bnDWmja8JPSUb/QVlDVox8EyLP2tv5sNgTprbJ/uJpPrVQxJ06TVn7QL/wAHgT/CR81U/aqxi/tUx4Fv6m29mINhFPO2vzipGLUiQdeR8R1prgyRbt+Cr+lSsa+v9WkjFwQeDrmDDbU1IxrEplO8gUzwM/8AM65qkY0Esg5lh+sfegmXZZcOulP5abw1SGFQhXZT/aLg8+EYxqjK4+eU/RjWQXLTRW69prJfDXlG5tvHnlJH1rFWcFec1r8Z7UTMg8JXQ9ZI+9EcMYuo3R1PyNReF/mP8X2FT8Kma4g6uq/MxTnwLRp2KlXVhuCI+dWtCHQMNNNunhVW4skgxVj4Ne95aU84E+fP61y2ar3BOPwv4qHpJHlG3zipfvDoM22wAgVOxFmfPlURlpbLrgzj2pcTvZrSBj7ppJWBBZdtYnZjVExCB1PWtM7a4D3yOI1XVfMfyRWZpWzC/WhGSNSJl3Fi8tu6T+Jl93cHinwt5lSP7NR77RUTBGHceR/n51KxGoirrYouDZezFwtgsMx39yk+YUD7VKu1C7ID/gcN/wDEn1E1PuCs5Z7ozzt/giLiXwNCPdt5gll+YLCfAVUntzqpjwP1Fap2jwPvrFy2Nysr/SHeX6gVlVtpE/MV0vFnca/BUkeMBc9zcW6JDIyv55TJE+Iketb1YcEAjUHUeR2rA8UdPrWwdhsb73BWTzVfdnzt939AD60rzYbKQQ/Cxg0q80q54yiVcMR5ipWFPdHmf1NdpUs1S4BHErf4xPgB8hT+HFKlTEZ5ckxKVw0qVSSUv2npOAuHo1s//wBFH3rGHMUqVPxcEyLX2tsZcJhAfygL6+7H+lUy+k+v30pUqmPAl/Vm74Fe4PIV6xRG/hSpUkb/AIgrhtwqxnZm38dqJXjFy2NZLdTGhHWlSqWSy0YapJrtKoFLkhYpZBHXSsGxiMrvaA2JBJ5wY0jyrlKtHjPdlpcEfhzd64viNtOUfai/DQBfsgf9W3/jFKlWh8Ckanj0qV2XeAU/iMfr96VKuY+DR0FsfcyKX/d73y1P0rzeuaQoGvXxpUqWX6KvjberjxNZX2mwgs33jZu+P60z9QaVKtGF+xEvqBcE/fY+H3qUCCdfH9KVKtAlGz9mUy4TDr0s2x/cFTHpUqzdk9EO+KyXjuG91irqDYnOPJ+9HzJHpXKVavEfuykgZiTpWieyfFTYu2/3XDejCP1Q/OlSrV5f8RSH2L5mrtKlXIGH/9k=");
+}
+.BTS-RUN{
+  text-align: left;
+  float: right;
+  height: 10%;
+  width: 30%;
+  padding: 2%;
+  background: pink;
+  border-radius: 8x;
+  color: pink;
+  font-family: styleSheet;
+  background-image:url("https://media.tenor.com/images/135e77ffb78585298b1fb02b5c7a866d/tenor.gif");
+}
+* a {
+  text-decoration:
+    none;
+  background:
+    pink;
+  padding: 2px 3px;
+  border-radius:
+    8px;
+  color: data:image/jpeg;base64,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;
+  border: 0.5px transparent
+    #99FFCC;
+  transition: all
+    0.9s ease;
+}
+* a.active {
+  background:
+    solid;
+color: #757CF9;
+}
+* a: hover {
+  color: lightgreen;
+  background: solid;
+  border-color:
+    lime;
+}
+a:visited{
+  color:#e66dff;
+}
+.RM {
+  float: left;
+  height: 20%;
+  width: 50%;
+  padding: 4%;
+  background: black;
+  border-radius:
+    10px;
+  color: pink;
+  font-family:styleSheet;
+  background-image: url("https://i.pinimg.com/originals/a2/ce/92/a2ce92d9977beefbc45f5cc7acca22c1.gif");
+}
+.Jin {
+  float: left;
+  height: 20%;
+  width: 50%;
+  padding: 4%;
+  background: black;
+  border-radius:
+    10px;
+  color: pink;
+  font-family:styleSheet;
+  background-image: url("https://pa1.narvii.com/6380/baf8d465da0c8ff8e9ad92b153b53b4356f57428_hq.gif");
+}
+.Suga {
+  float: left;
+  height: 20%;
+  width: 50%;
+  padding: 4%;
+  background: black;
+  border-radius: 10px;
+  color: pink;
+  font-family:styleSheet;
+  background-image: url("https://media1.tenor.com/images/9f1aaf128e6ba031811a6b8ae7009473/tenor.gif?itemid=12981484");
+}
+.J-Hope {
+  float: left;
+  height: 20%;
+  width: 50%;
+  padding: 4%;
+  background: black;
+  border-radius: 10px;
+  color: pink;
+  font-family:styleSheet;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOi2cF59OBbJ3u2FCsQtdaODk3vVyQW7lqhDEA2IFkEB_CkJKa");
+}
+.Jimin{
+  float: left;
+  height: 20%;
+  width: 55%;
+  padding: 2%;
+  background: black;
+  border-radius: 10px;
+  color: pink;
+  font-family: styleSheet;
+  background-image: url("https://media1.tenor.com/images/4732cece269ff011487d3366654357ca/tenor.gif?itemid=11429512");
+}
+.V {
+  float: left;
+  height: 20%;
+  width: 53%;
+  padding: 4%;
+  background: black;
+  border-radius: 10px;
+  color: pink;
+  font-family: styleSheet;
+  background-image: url("https://68.media.tumblr.com/1b3479508799756cc4e96b5886a9fb53/tumblr_owodjkDP101qagqqso2_400.gif");
+}
+.Kookie{
+  float: left;
+  height: 20%;
+  width: 53%;
+  padding: 4%;
+  background: black;
+  border-radius: 10px;
+  color: pink;
+  font-family: styleSheet;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzYrCy0CmzbBrBFH4kX98Jz1YU5RN938SvQryZtfp6eGsT_iRRKg");
+}
+
+}
+.intro{
+  border: 8px dotted pink;
+  color: #000000;
+}
+.RM{
+  border: 8px dotted pink;
+  color: #000000;
+}
+.Jin{
+  border: 8px dotted pink;
+  color: #000000;
+}
+.Suga{
+  border: 8px dotted pink;
+  color: #000000;
+}
+.J-Hope{
+  border: 8px dotted pink;
+  color: #000000;
+}
+.Jimin{
+  border: 8px dotted pink;
+  color: #000000;
+}
+.V{
+  border: 8px dotted pink;
+  color:#000000 ;
+}
+.Kookie{
+  border: 8px dotted pink;
+  color: #000000;
+}
+.BTS2{
+  border: 8px dotted pink;
+}
+.BTS-RUN{
+  border: 8px dotted pink;
+}
+   
+    </style>
+  </head>
+  <body>
+     <header>
+    BTS Website
+  </header>
+  
+    <DIV class="NAV">
+  <nav class="Navigation">
+  <a
+     href="http://bts.ibighit.com/"
+     target="_blank">BTS Official Website</a>
+  <a
+     href="http://bts.ibighit.com/photo.php"
+     target="_blank">BTS Tear Concept Photos</a>
+    <a
+       href="http://bts.ibighit.com/comebacktrailer.php"
+       target="_blank">BTS Tear Album Videos</a>
+    <a
+       href="http://bts.ibighit.com/discography.php"
+       target="_blank">BTS Discography</a>
+    <a
+       href="http://bts.ibighit.com/twitter.php"
+       target="_blank">BTS Twitter</a>
+    <a
+       href="http://bts.ibighit.com/btsworldtour/"
+       target="_blank">BTS World Tour Dates</a>
+    <a
+       href="https://aminoapps.com/c/btsarmy/"
+       target="_blank">ARMY's Amino</a>
+    <a
+       href="https://www.youtube.com/user/BANGTANTV"
+       target="_blank">BTS Official Youtube</a>
+      </nav></br>
+
+    
+  <HEAD>
+    <TITLE>
+      BTS
+    </TITLE>
+   <HEAD>
+     <DIV class="video">
+     <iframe width="335" height="320"
+src="https://www.youtube.com/embed/p8npDG2ulKQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+     
+     <iframe width="330" height="320"
+src="https://www.youtube.com/embed/7C2z4GqqS5E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+       
+     <iframe width="325" height="320" src="https://www.youtube.com/embed/pN82EZiUkr4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
+       
+     <iframe width="320" height="320" src="https://www.youtube.com/embed/qkLMPihvKaQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></DIV>  
+     
+     <br><DIV class= "intro">
+     <h1> About BTS </h1>
+     <p> BTS, also known as the Bangtan Boys, is a seven-member South Korean boy band formed by BigHit Enterainment. They debuted on June 12, 2013 with the song "No More Dream" from their first album 2 Cool 4 Skool.</p></br>
+<a     target="_parent"
+ class="active"
+   href="https://www.youtube.com/watch?v=Ii62Xc1-KZc">BTS Members and Inside Jokes</a></DIV>
+     
+     <DIV id="DIV-NINE" class="BTS2">
+       <h2><p> BTS Recent Performances and Music Video links:<p></h2>
+         <br><a    target="_parent"
+ class="active"
+                href="https://www.youtube.com/watch?v=7C2z4GqqS5E"> BTS Fake Love MV</a></br>
+         <br><a
+            target="_parent"
+ class="active"
+                href="https://www.youtube.com/watch?v=qkLMPihvKaQ"> BTS Anpanman Performance</a></br>  
+    <br><a
+ target="_parent"
+ class="active"
+           href="https://www.youtube.com/watch?v=pN82EZiUkr4">BTS Airplane pt.2</a></br> 
+      <br><a
+        target="_parent"
+        class="active"
+             href="https://www.youtube.com/watch?v=hmE9f-TEutc">BTS Blood Sweat and Tears MV</a></br>     
+     <br><a
+  target="_parent"
+  class="active"
+            href="https://www.youtube.com/watch?v=p8npDG2ulKQ">BTS Singularity Trailer</a></br>
+    <br><a
+  target="_parent"
+  class="active"
+           href="https://www.youtube.com/watch?v=BEMaH9Sm3lQ">BTS Serendipty Trailer</a></br>
+  <br><a
+  target="_parent"
+  class="active"
+         href="https://www.youtube.com/watch?v=kTlv5_Bs8aw">BTS Mic Drop MV</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="https://www.youtube.com/watch?v=MBdVXkSdhwU">BTS DNA MV</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="https://www.youtube.com/watch?v=cpYA9mQ4rA4">BTS Airplane pt.2 On Ellen</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="https://www.youtube.com/watch?v=60Ks0ybPuac">BTS BBMAS 'Fake Love' performance</a></br>     
+<br><a
+  target="_parent"
+  class="active"
+       href="https://www.youtube.com/watch?v=9DwzBICPhdM">BTS Not Today MV</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="https://www.youtube.com/watch?v=xEeFrLSkMm8">BTS Spring Day</a></br> 
+<br><a
+  target="_parent"
+  class="active"
+       href="https://www.youtube.com/watch?v=GZjt_sA2eso">BTS SAVE ME MV</a></br> 
+<br><a
+  target="_parent"
+  class="active"
+       href="https://www.youtube.com/watch?v=V6gzgV1fBxg">BTS Go Go Performance</a></br>    
+<br><a
+  target="_parent"
+  class="active"
+       href="https://www.youtube.com/watch?v=2cTZTqBU1Rc">BTS FIRE MV</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="https://www.youtube.com/watch?v=H8lYMWZD5P8">BTS Dope MV</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="https://www.youtube.com/watch?v=wKysONrSmew">BTS RUN MV</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="https://www.youtube.com/watch?v=0W86V2KcqiU">BTS On Jimmy Kimmel Live</a></br>   
+<br><a
+  target="_parent"
+  class="active"
+       href="https://www.youtube.com/watch?v=jLM2ibaRbrk">Flinch With BTS!</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="https://www.youtube.com/watch?v=jHm2gaOsoRs">BTS Fake Love on James Corden!</a></br>     
+<br><a
+  target="_parent"
+  class="active"
+       href="https://www.youtube.com/watch?v=7rgJInK5mOA">BTS featured cut on James Corden!</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="https://www.youtube.com/watch?v=3Y_Eiyg4bfk">Agust D MV</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="https://www.youtube.com/watch?v=0XAxf8aFtL4">RM 'Do You' MV</a></br>
+       </DIV>
+    
+<DIV id= "DIV-TWO" class= "RM">
+  <h1> RM </h1>
+  <br><p> The members' names may seem hard to remember, so I will help you out! The first member is RM, also known as Kim Namjoon(or Joonie). He is the leader and spokesperson for the group and is one of three rappers in the group.
+    </p></br>
+    <a
+       target="_parent"
+class="active"
+       href="https://www.youtube.com/watch?v=1qNivYfGrbM">RM God of Destruction Moments</a>
+     <a
+        target="_parent"
+        class="active"
+        href="https://www.youtube.com/watch?v=WxMA1yobl_w">RM Being Done With BTS English</a></DIV>
+     
+     
+<DIV id= "DIV-THREE" class= "Jin">
+  <h1> Jin </h1>
+  <br> <p> The next member is Jin, also known as Kim Seokjin. He is the oldest of the seven, and is a vocalist. He loves to tell cringey dad jokes to the other member and his laugh is contagious. You may recognize his handsome face from when he turned twitter famous as "car door guy".</br>
+   
+<br><a target="_parent"
+class="active"
+       href="https://www.youtube.com/watch?v=tu0GSaYSoIs">Jin's Dad Jokes Compilation</a></br></DIV>
+
+<DIV id= "DIV-FOUR" class= "Suga">
+  <h1> Suga </h1>
+  <br> <p> Next, we have Suga, also known as Min Yoongi. He, too, is a rapper like RM. Suga was also known as Agust D, the stage name "Suga" is Agus spelled backwards(Just add the T and D!) You can find Suga mostly sleeping, or goofing off with the rest of the members. He will cuss you out if you disturb one of his well deserved naps.</br>
+<br><a
+   target="_parent"
+class="active"
+       href="https://www.youtube.com/watch?v=GOpF_5SLRVI">Suga Savage Moments Compilation</a></br></DIV>
+  
+
+     
+ <DIV id= "DIV-FIVE" class="J-Hope">
+   <h1> J-hope </h1>
+   <br><p> J-Hope, also known as Jung Hoseok, is the main dancer of the group and part of the rap line along with Suga and RM. He usually learns the choreography first and teaches the other members. J-Hope has a sunny disposition, meaning that he is usually smiling all of the time and loves to goof with the rest of the members.</p></br>
+  
+<br><a
+   target="_parent"
+   class="active"
+       href="https://www.youtube.com/watch?v=07jGAyHzY1A">J-Hope Funny Moments</a></br></DIV>
+<DIV id= "DIV-TEN" class="BTS-RUN">
+  <h2><p> BTS Run Episodes </p> </h2>
+  <br><a
+    target="_parent"
+    class="active"
+         href="http://www.vlive.tv/video/1037/Run-BTS---EP1-Open">Episode 1</a></br>
+<br><a
+  target="_parent"
+  class="active"
+  href="http://www.vlive.tv/video/1097/Run-BTS---EP2-%EC%B5%9C%EA%B3%A0%EC%9D%98-%EB%82%A8%EC%9E%90">Episode 2</a></br> 
+<br><a
+  target="_parent"
+  class="active"
+  href="http://www.vlive.tv/video/1303/Run-BTS---EP3-%EB%86%80%EC%9D%B4%EA%B3%B5%EC%9B%90">Episode 3</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/1903">Episode 4</a></br>
+<br><a
+  target="_parent"
+  class="active"
+  href="http://www.vlive.tv/video/2117/Run-BTS---EP5-%ED%95%9C%EA%B0%80%EC%9C%84-%EB%A7%9E%EC%9D%B4-100%EC%B4%88-%EC%9A%B4%EB%8F%99%ED%9A%8C">Episode 5</a></br>
+<br><a
+  target="_parent"
+  class="active"
+  href="http://www.vlive.tv/video/2422/Run-BTS---EP6--%EA%BD%81%ED%8A%B8-%EA%B3%A0%ED%95%B4%EC%84%B1%EC%82%AC-">Episode 6</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/2590/playlist/27764">Episode 6 pt.2</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/3345">Episode 7</a></br>     
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/4097">Episode 8</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/4252">Episode 9</a></br> 
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/4524/Run-BTS---EP10">Episode 10</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/21933">Episode 11</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/23341">Episode 12</a></br>  
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/24395">Episode 13</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/24398">Episode 14</a></br>    
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/24885">Episode 15</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/25588/Run-BTS-2017---EP16">Episode 16</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/27074">Episode 17</a></br>     
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/27608">Episode 18</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/29032">Episode 19</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/30842">Episode 20</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/31448">Episode 21</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/43438">Episode 22</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/44518/playlist/27764">Episode 23</a></br> 
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/45209">Episode 24</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/46063">Episode 25</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/46976">Episode 26</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/48138">Episode 27</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/48969/Run-BTS-2017---EP28">Episode 28</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/49933">Episode 29</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/50913">Episode 30</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/51638">Episode 31</a></br>     
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/52630">Episode 32</a></br>     
+<br><a
+  target=_parent 
+  class="active"
+       href="http://www.vlive.tv/video/53320">Episode 33</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/53963">Episode 34</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/54625">Episode 35</a></br>     
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/55393">Episode 36</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/56352">Episode 37</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/57288">Episode 38</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/58311">Episode 39</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/59201">Episode 40</a></br>     
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/59950">Episode 41</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/60829">Episode 42</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/61788">Episode 43</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/62664">Episode 44</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/63564">Episode 45</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/64497">Episode 46</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/65329">Episode 47</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/66215">Episode 48</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/67118">Episode 49</a></br>
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/68148">Episode 50</a></br>     
+<br><a
+  target="_parent"
+  class="active"
+       href="http://www.vlive.tv/video/69154">Episode 51</a></br>     
+       
+</DIV>
+
+<DIV id="DIV-SIX" class="Jimin">
+  <h1> Jimin </h1>
+  <br><p> Jimin, also known as Park Jimin(Nickname, Jiminie) is a one of four vocalists. He is the shortest member of the group. Jimin seems to be shy and timid, but he is actually the most energetic member. He can dance really well and 9 times out of ten will scream the high note in BTS's songs. Jimin is also known for having a baby face.(So adorable!!!) </p></br>
+
+
+<br><a
+   target="_parent"
+   class="active"
+       href="https://www.youtube.com/watch?v=h-Jx8XIfqf8"> Jimin Being Extra</a></br>
+</DIV>
+
+ 
+<DIV id="DIV-SEVEN" class="V">
+  <h1> Kim TaeHyung </h1>
+    <br><p> V, also known as Kim TaeHyung(Or TaeTae) is also part of the voclaist group in BTS. He is known for his handsome face, since it is aligned symetrically. V is a really goofy, but sweet person who will never fail to put a smile on your face. Here is a picture of Tae:</br>
+    
+  <br><a
+     target="_parent"
+     class="active"
+         href="https://www.youtube.com/watch?v=ZxpciLK7A2I">V Cute/Funny Moments</a></br></DIV>
+
+<DIV id="DIV-EIGHT" class="Kookie">
+     <h1> Jeon Jungkook </h1>
+       <br><p> Jungkook, also known as Jeon Jungkook(JEON CENAAAAA!!!) One of his nicknames is Kookie. Kookie is the youngest member. He likes to tease the other members.(especially Jin and Jimin)Kookie is basically the troll of the group, and is a vocalist. His vocals skills are of-the-charts amazing and never fail to make people melt inside.</br>
+  
+  <br><a
+     target="_parent"
+     class="active"
+         href="https://www.youtube.com/watch?v=Mo8CMm_PtI8">Jungkook Being A Brat</a></br></DIV>
+
+
+<button onclick
+ = 'AddChild();'>Welcome ARMY!</button>
+<div id= "BTS_WB"></div>
+
+<div id="container" class="army-bomb-container">
+  <div id="handle" class="handle">
+  <div id="army-bomb" class="army-bomb"/>
+</div>
+ <div class="character">
+  <div class="head">
+    <div class="ear ear-left"> </div>
+    <div class="ear ear-rigth"> </div>
+    <div class="eyes"></div>
+    <div class="nose"></div>
+    <div class="lip"></div>
+  </div>
+  <div class="body">
+    <div class="hand hand-right"></div>
+    <div class="hand hand-left"></div>
+  </div>
+</div>
+  
+  </body>
+  <script>
+  function AddChild () {
+      var newElem = document.createElement("div");
+  
+    newElem.innerHTML ="<li>Welcome to BTS Website! Who is your bias?</li>";
+     
+  newElem.style.color= "hotpink";
+ 
+  var containerOne = document.getElementByID =("BTS_WB");
+  
+  BTS_WB.appendChild(newElem);
+   
+}
+  
+  </script>
+</html>
