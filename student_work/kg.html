@@ -1,0 +1,205 @@
+<html>
+  <head>
+    <style> 
+      .lvl{height: 100px;
+width: 150px;
+overflow:auto;}
+.indcat{height: 100px;
+width: 150px;
+overflow:auto;
+}
+.grocat{height: 100px;
+width: 150px;
+overflow:auto;}
+
+#indiv { display: none;}
+#group { display: none;}
+#signup{display: none;}
+
+#menu{
+  width:100%;
+  background-color:#10C198
+ ;
+  padding:5px 0px 5px 0px;
+  left:0;
+}
+
+.title{ 
+  padding: 5px 0px 5px 0px;
+  left:0;
+  
+}
+
+table{
+  margin:auto;
+}
+table a{
+  text-decoration:none;
+  text-align:center;
+  padding:5px 20px 5px 20px;
+  color:white;
+}
+table a:hover{
+  color:#e4d1d1;
+}
+    </style>
+  </head>
+  <body>
+    <h1 class = "title"> Forensics Sign Up</h1>
+
+<br>
+ <div id="menu"> 
+  <table>
+    <tr>
+      <td><a href = "#Name" >Get Started</a></td>
+      <td><a href = "#lvlofcomp">Levels</a></td>
+      <td><a href = "#catchoice">Categories</a></td>
+    
+    </tr>
+  </table>
+</div>
+<h4> Getting Started </h4>
+<label> Name 
+  <input id ="name" type="text"></label>
+<br>
+<label> School Name <select id = "select">
+  <option value="pp">Pilgrim Park Middle School</option>
+  <option value="wh">Wisconsin Hills Middle School</option>
+  <option value="k"> Kennedy Middle School</option>
+  <option value="t"> Templeton Middle School</option>
+</select>
+</label>
+<br>
+<button id="sign-in"> Get Started </button>
+<p id= "greeting">Hello</p>
+
+<br>
+
+  <h4 id = lvlofcomp> Level of Competition <h4>
+    <h5> Level 1 </h5>
+    <div class = "lvl">
+      <p> In Level 1, children at a beginner level compete against the other schools in their league. The average score in Level 1 is a 40.
+</div>
+    <h5> Level 2 </h5>
+    <div class= "lvl">
+      <p> In Level 2, children at a intermediate level compete against the other schools in their league. The average score in Level 2 is a 55.
+</div>
+    <h5> Level 3 </h5>
+    <div class="lvl">
+      <p> In Level 3, children at an advanced level compete against the other schools in their league. The average score in Level 3 is a 67.
+</div>
+<br>
+<label> Choose a Level <select>
+  <option value="lvl-choice1">1</option>
+  <option value="lvl-choice2">2</option>
+  <option value="lvl-choice3">3</option>
+  </select>
+  <br>
+  <br>
+ Great choice! Now we'll pick a category!
+  <br>
+  <br>
+  <h4> Categories </h4>
+  <p>
+    Do you want to work individually, or with a group?
+    <br>
+    <br>
+    <label> Choose One <select id = "catchoice">
+<option value="ind">Individual</option>
+  <option value="gro">Group</option>
+      </select> </label>
+    <br>
+    <button id = cats> Categories </button>
+<br>
+<div id="indiv">
+  <p> Here are the categories you can choose from! </p>
+  <h3> Individual Categories </h3>
+  <h4> Humorous Solo </h4>
+  <p class = "indcat"> Humorous solo is a funny monologue that must be memorized and between 3-10 minutes in length. No props are allowed, so make sure you know how to use your hands! If you are constantly making your friends laugh, and are perhaps the class clown, this category will be great for you! </p>
+  <h4> Serious Solo </h4>
+  <p class = "indcat"> Serious solo is a sad/depressing monologue that must be memorized and between 3-10 minutes in length. No props are allowed, so make sure you know how to use your hands! If you are good at portraying emotion and acting, then this category would be great for you! </p>
+  <h4> Prose </h4>
+  <p class = "indcat"> Prose is a piece of literature that is cut to be 5-8 minutes in length. No props are allowed, but the piece doesn't have to be memorized. If making eye contact with an audience is one of your strengths and you love reading books, then this category would be great for you! </p>
+  <h4> Poetry </h4>
+  <p class = "indcat"> When performing poetry, one reads or presents a poem of their choice that is 3-8 minutes long. It isn't required to be memorized, but it is recommended. No props are allowed, so emotion, eye contact, and vocal variation are key! </p>
+  <h4> Impromptu </h4>
+  <p class = "indcat"> Impromptu speaking is one of the toughest events in forensics competition. A category is randomly given on stage, after which you have 5 minutes to prepare, and 5 minutes to present your "speech". No props and scripts are allowed. Once again, emotion and voval variation are needed, when performing impromptu. </p>
+<br>
+  Pick your desired category!
+  <br>
+  <br>
+  <label> Category Choice <select id = indchoice>
+<option value="chceind">Humorous Solo</option>
+  <option value="chceind">Serious Solo</option>
+    <option value="chceind">Prose</option>
+  <option value="chceind">Poetry</option>
+    <option value="chceind">Impromptu</option>
+      </select> </label>
+  </div>
+ <br>
+<br>
+<div id="group">
+  <p> Here are the categories you can choose from! </p>
+  <h3> Group Categories </h3>
+  <h4> Group Acting </h4>
+  <p class = "grocat"> Group Acting is a funny or sad script that must be memorized and between 5-10 minutes in length. No props are allowed, so make sure you know how to use your hands! The amount of members in a group usually ranges from 2-5 people! If you enjoy performing in plays or school musicals, then this category would be great for you! </p>
+  <h4> Group Interpretation </h4>
+  <p class = "grocat"> Group Interpretation, commonly called Group Interp,is a category similar to group acting, except for the fact that the audience sees action being described, rather than witnessing it being done. Groups of 2-4 perform this category. </p>
+  <h4> Special Events </h4>
+  <p class = "grocat"> The challenge to the speaker(s) in this catgory is to write a speech appropriate to a specific occasion and its probable audience. Speakers may use props This category calls for a speech, not a visual media show. The situations from which the group selects are determined each year! </p>
+  <h4> Demonstartion </h4>
+  <p class = "grocat"> Demostration is pretty self-explanatory. The demonstrator(s) must show how to perform, or do the activity of their choice. These can range from drumming, to dancing; it is entirely up to you! Anything needed to perform the demonstration can be brought. </p>
+  <h4> Group Improvistation </h4>
+  <p class = "grocat"> Group Improv is one of the toughest categories in forensics competition. In this category, the group is given a common word or phrase to create an improvised play. No props are allowed and the performance must be between 4-5 minutes. If you and your friends are up for a challenge, this category would be great for you!</p>
+  <br>
+  Pick your desired category!
+  <br>
+  <br>
+  <label> Category Choice <select id = grochoice>
+<option value="chcegro">Group Acting</option>
+  <option value="chceind">Group Interp</option>
+    <option value="chceind">Special Events</option>
+  <option value="chceind">Demonstration</option>
+    <option value="chceind">Group Improvisation</option>
+      </select> </label>
+</div>
+  <button id = buttonsign> Sign Up! </button>
+    <div id="signup"> Congrats! You have successfully signed up for Forensics! </div>
+
+  </body>
+  <script>
+  var sign=
+document.getElementById("sign-in");
+var onButtonClick = function(){
+  var name = document.getElementById("name").value;
+  var greeting = "Hello";
+  document.getElementById("greeting").textContent = "Hello " + name + "! " + "You are now going to pick your level of competition!"
+};
+sign.addEventListener("click", onButtonClick);
+// paula.vancamp@marquette.edu
+//category function
+
+/// category choice function
+var catbutton = document.getElementById("cats");
+var categ = function(){
+  var categorytype = document.getElementById("catchoice").value;
+if (categorytype === "ind"){  
+  var indiv = document.getElementById("indiv");
+   indiv.style.display="block";}
+if(categorytype === "gro" ){ 
+   var group = document.getElementById("group");
+  group.style.display = "block";
+}
+  
+}
+catbutton.addEventListener("click", categ);
+//// final step
+var buttonsign = document.getElementById("buttonsign");
+var final = function (){
+  var signup = document.getElementById("signup");
+  signup.style.display = "block";
+}
+buttonsign.addEventListener("click", final);
+  
+  </script>
+</html>
