@@ -11,11 +11,25 @@
 <div class="grid-container">
  
   <div id="title1" class="item1">
-    <h6>ALL ABOUT ME</h6>
+    <h6>ABOUT</h6>
     <div id = section1>
-      <h3>Paula Van Camp</h3>
-      <img src = "https://scontent-ort2-2.xx.fbcdn.net/v/t31.0-8/18699382_1337143429708908_8526657960948206413_o.jpg?_nc_cat=100&_nc_ht=scontent-ort2-2.xx&oh=7af76d945bb563e6142d49f547e06251&oe=5D19C36E" width =50%>
-      <h4 id = intro>Paula is an engineer and  environmentalist. <br>She driven to create a world in which the inherent value of all things is understood and respected.  <br>Paula loves to create and refurbish furniture, to ride her bike, and make gadgets for her many plants. She is a spirited student at Marquette University and Co-Founder of REVIVE. You will find her anywhere the sun in shining.  <br><br>If you need to get a hold of her, send an email to:<br>paula.van.camp@gmail.com<br><br>Or reach out on social media!</h4>
+      <img id = introImg src = "https://scontent-ort2-2.xx.fbcdn.net/v/t31.0-8/18699382_1337143429708908_8526657960948206413_o.jpg?_nc_cat=100&_nc_ht=scontent-ort2-2.xx&oh=7af76d945bb563e6142d49f547e06251&oe=5D19C36E" width =50%>
+      <h4 id = intro>Paula Van Camp <br><br>Paula is an engineer and  environmentalist. <br>She driven to create a world in which the inherent value of all things is understood and respected. </h4>
+      
+      <h4 id=Work><u> Work & Leadership Experience</u>
+<p>Engineering Co-Op and EmbedTek     1/2018 – 12/2018 </p>
+<p class = indent>Works with electrical engineering team to design, build, and improve embedded computer systems</p>
+<p>Level 2 Instructor for Girls Who Code at Marquette					Aug 2016-Present<p>
+<p class = indent>Teaches web development - languages and concepts – to a classroom of girls weekly with the driving mission being to decrease the gender gap in CS</p>
+<p>Engineering Student Ambassador							6/2017- Present<p>
+<p class = indent>Represents the College of Engineering through guided tours of the facilities and recruitment events</p>
+<p>Engineering Tutor									1/2018-5/2019</p>
+<p class = indent>Tutors engineering students enrolled in Digital Electronics by engaging in problem solving and active learning</p>
+<p>On-Site Coordinator for Marquette’s Institute Retreat				1/2017 & 1/2018 <p>
+<p class = indent>Assists with the logistics and facilitation of a 6-day, personal leadership development retreat designed by Leadershape© and hosted by Marquette.</p></h4>
+         <h4 id=interests> Paula is a woman of many interests.  Although she is at Marquette University studying engineering, she has never felt like the typical engineer.  She loves to create and refurbish furniture, to ride her bike, and make gadgets for her many plants. Paula frequently spends time in community gardens weeding the beds or simply enjoying the fresh air. She is a trained dancer and has choreographed ballet dances for Marquette's Dance Inc Program. She loves to stay busy and sieze every opportunity she can. <h4>
+        <img id = img2 src = "https://scontent-ort2-2.xx.fbcdn.net/v/t31.0-8/18699382_1337143429708908_8526657960948206413_o.jpg?_nc_cat=100&_nc_ht=scontent-ort2-2.xx&oh=7af76d945bb563e6142d49f547e06251&oe=5D19C36E" width =50%>
+      <h4 id = contact>If you need to get a hold of her, send an email to: <br>paula.van.camp@gmail.com</h4>
       <div id = "icons"><br>
 <a href="https://www.facebook.com/paula.vancamp" class="fa fa-facebook"></a>
 <a href="https://www.linkedin.com/in/paula-van-camp-2b309512b/" class="fa fa-linkedin"></a>
@@ -30,7 +44,7 @@
     <div id = section2>
       <p>I am the level 2 instructor for Marquette University's Girls Who Code club. In Level 2, we learn HTML, CSS, and fundamentals of JavaScript. These skills, and insights about best coding practices, provide the necessary education needed to create beautiful websites.<br> Each student works hard to understand all three languages and applies their understanding to their final project in which they design and implement a website of their own. This year's class projects can be viewed below.   </p>
       <ul>
-        <li><a href="/student_work/eb" >Eva</a></li>
+        <li><a href ="/student_work/eb" >Eva</a></li>
         <li><a href ="/student_work/jc" >Jane *not posted</a></li>
         <li><a href ="/student_work/kg" >Krithi</a></li>
         <li><a href ="/student_work/sh" >Stephanie *not posted</a></li>
@@ -48,6 +62,7 @@
         <li></li>
         <li><a href ="/student_work/sw" >Sophia</a></li>
       </ul>
+	 <img id = stairPic src = "https://scontent-ort2-2.xx.fbcdn.net/v/t31.0-8/15369949_1179661535457099_7467239890161870381_o.jpg?_nc_cat=106&_nc_ht=scontent-ort2-2.xx&oh=a5cc9342d6e4a45935c30d71e72eaa0e&oe=5D03F539">
     </div>
   </div>
   
@@ -71,7 +86,7 @@
 <p>Message: <input type="text" id="myMessage"></p>
 <button id="button">Submit!</button>    
     
-<p id="placeHolder">Your Comment Goes Here: <br></p>
+<p id="placeHolder"><br></p>
       
       
       
@@ -80,6 +95,7 @@
     
 </div>
 </body>
+
 	
 <script>
 var section1 = document.getElementById("section1");
@@ -97,37 +113,37 @@ var height1 = 10;
 var grow1 = function(){
   height1++;
   button1.style.height = height1 + "px";
-  if(height1>800){
+  if(height1>1350){
      clearInterval(first);}
 }
-var first = setInterval(grow1, 1);
+var first = setInterval(grow1, .5);
 
 var height2 = 10;
 var grow2 = function(){
   height2++;
   button2.style.height = height2 + "px";
-  if(height2>800){
+  if(height2>1350){
      clearInterval(second);}
 }
-var second = setInterval(grow2, 5);
+var second = setInterval(grow2, 3);
 
 var height3 = 10;
 var grow3 = function(){
   height3++;
   button3.style.height = height3 + "px";
-  if(height3>800){
+  if(height3>1350){
      clearInterval(third);}
 }
-var third = setInterval(grow3, 7);
+var third = setInterval(grow3, 4.5);
 
 var height4 = 10;
 var grow4 = function(){
   height4++;
   button4.style.height = height4 + "px";
-  if(height4>800){
+  if(height4>1350){
      clearInterval(fourth);}
 }
-var fourth = setInterval(grow4, 8);
+var fourth = setInterval(grow4, 5);
 
 
 
