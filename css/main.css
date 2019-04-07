@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
 
 body{
   font-family: 'Ubuntu', sans-serif;
@@ -18,7 +19,7 @@ h6{
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
-  height:800px;
+  height:10px;
 }
 .item1 { 
   background-color:#f54040;
@@ -36,28 +37,59 @@ h6{
   background-color:#00a5a2;
   color:black;
 }
-/*
+
 .item1:hover{
-  opacity:.9;
+  background-color:#e53040;
 }
 .item2:hover{
-  opacity:.9;
+  background-color: #e0b000;
 }
 .item3:hover{
- opacity:.9;
+  background-color:#009542;
 }
 .item4:hover{
-  opacity:.9;
-}*/
+   background-color:#009592;
+}
 #section1{
   display:none;
   text-align:center;
-  font-size:16px;
+  font-size:20px;
   padding:0 20px 20px 20px;
   margin:auto;
+  font-family:'Dosis';
 }
 #intro{
-  padding:0 20% 0 20%;
+  padding:12% 0 10% 53%;
+  width:45%;
+}
+#introImg{
+  border-radius:25px;
+  float:left;
+  width:50%;
+}
+#interests{
+  padding:2% 3% 0% 2%;
+  width:45%;
+  float:left;
+}
+#contact{
+  margin-top:100px;
+  width:50%;
+}
+#img2{
+  border-radius:25px;
+  float:right;
+  width:50%;
+}
+#Work{
+  text-align:left;
+}
+p{
+  margin:0px;
+  padding:0px;
+}
+.indent{
+  margin:0px 0px 10px 20px;
 }
 #section2{
   display:none;
@@ -84,11 +116,13 @@ li{
   padding:0 20px 20px 20px;
   margin:auto;
 }
-
+#stairPic{
+  width:50%;
+  margin-left:25%;
+}
 #icons{
   text-align:center;
   font-size: 40px;
-  margin:auto;
 }
 .fa{
   padding:1%;
