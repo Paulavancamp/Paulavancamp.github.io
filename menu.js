@@ -1,6 +1,7 @@
   /* Open Menu */
   var menuicon = document.getElementById("hamburger-icon");
   var overlay = document.getElementById("overlay");
+  console.log("loading page");
 
   var toggleMenu = function(){
     console.log("test1");
