@@ -158,6 +158,9 @@ margin: 75px 50px 80px;
 footer {
   text-align: center;
   padding-bottom: 3em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 #icons{
@@ -168,7 +171,7 @@ footer {
   padding:1%;
   height:5%;
   color:white;
-  width:30%;
+  width:10%;
   text-decoration: none;
 }
 .fa-facebook {
