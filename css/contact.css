@@ -9,12 +9,22 @@ form{
       border-radius:10px;
       padding:1%;
   }
+
+#submit-form{
+    width:60px;
+    height:40px;
+    background-color: transparent;
+    border:solid #e74c3c 2px;
+    color:#e74c3c;
+}
   
 footer {
     text-align: center;
     padding-bottom: 3em;
+    width:50%;
+    margin-left:24%;
+    padding:1%;
     border: solid #e74c3c 2px;
-    border-radius:10px;
   }
   
   #icons{
@@ -28,7 +38,6 @@ footer {
     width:10%;
     text-decoration: none;
     border: solid 2px transparent;
-    border-radius: 2px;
   }
   .fa-facebook {
     background: #3b5998;
