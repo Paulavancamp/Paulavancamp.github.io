@@ -11,4 +11,4 @@
     menuicon.toggleClass("hamburger-open");
 }
 
-menuicon.addEventListener(toggleMenu, "click");  
+menuicon.addEventListener("click", toggleMenu);  
