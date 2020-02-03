@@ -51,6 +51,8 @@ body {
 .collapsible-menu label {
   display: block;
   cursor: pointer;
+  font-size: 45px;
+  min-height:45px;
   background: url(/images/cube-icon.png) no-repeat left center;
   padding: 10px 0 10px 50px;
 }
@@ -109,7 +111,7 @@ perspective: 2000px;
   height: 200px;
   transform-style: preserve-3d;
   transform: rotateX(-20deg) rotateY(-80deg);
-margin: 75px 50px 80px;
+  margin: 75px 50px 80px;
 }
 
 .cube-face {
@@ -164,29 +166,3 @@ margin: 75px 50px 80px;
   border:solid #ab69c6 2px;
 }
 
-
-footer {
-  text-align: center;
-  padding-bottom: 3em;
-}
-
-#icons{
-  text-align:center;
-  font-size: 25px;
-}
-.fa{
-  padding:1%;
-  height:5%;
-  color:white;
-  width:5%;
-  text-decoration: none;
-}
-.fa-facebook {
-  background: #3b5998;
-}
-.fa-linkedin {
-  background: #0077B5;
-}
-.fa-instagram {
-  background: #515BD4;
-}
