@@ -4,5 +4,8 @@ form{
   }
   #formStuff{
       width:50%;
-      margin-left:25%;
+      margin-left:24%;
+      border: solid #e74c3c 2px;
+      border-radius:10px;
+      padding:1%;
   }
