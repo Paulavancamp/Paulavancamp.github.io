@@ -10,6 +10,22 @@ html {
   font-size: 14px;
 }
 
+.purp{
+  color:#9b59b6;
+}
+.orn{
+  color:#e67e22;
+}
+.green{
+  color:#1abc9c;
+}
+.blu{
+  color:#3498db;
+}
+.red{
+  color:#e74c3c;
+}
+
 
 body {
   margin: 0;
@@ -22,133 +38,34 @@ body {
 }
 
 
-.overlay {
-  height: 0%;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.432);
-  overflow-y: hidden;
-  transition: 0.5s;
+.menu-content {
+  max-height: 0;
+  overflow: hidden;
+  font-family: 'Oswald', sans-serif; 
+  padding: 0 0 0 50px;
 }
-
-.overlay-open{ height: 100%; }
-
-.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
+.collapsible-menu {
+  background-color: rgb(255, 255, 255);
+  padding: 0px 30px;
+  border-bottom: 3px solid #CDE700;
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
 }
-
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #ffaaaa;
-  text-transform: uppercase;
+.collapsible-menu label {
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 56px;
   display: block;
-  transition: 0.3s;
+  cursor: pointer;
+  background: url(/images/cube-icon.png) no-repeat left center;
+  padding: 10px 0 10px 50px;
 }
-
-.overlay a:hover, .overlay a:focus {
-  color: #ccc;
+input#menu {
+  display: none;
 }
-
-.open-close-btn {
-  position: absolute;
-  top: 40px;
-  right: 40px;
-text-decoration: none;
-z-index:10;
+input:checked +label {
+  background-image: url(/images/X-icon.png);
 }
-
-@media screen and (max-height: 450px) {
-.overlay {overflow-y: auto;}
-.overlay a {font-size: 20px}
-}
-
-
-/* Hamburger Icon */
-#hamburger-icon{
-display: block;
-width: 50px;
-height: 39px;
--webkit-transform: rotate(0deg);
--moz-transform: rotate(0deg);
--o-transform: rotate(0deg);
-transform: rotate(0deg);
--webkit-transition: .5s ease-in-out;
--moz-transition: .5s ease-in-out;
--o-transition: .5s ease-in-out;
-transition: .5s ease-in-out;
-cursor: pointer;
-}
-
-
-#hamburger-icon span {
-display: block;
-position: absolute;
-height: 7px;
-width: 100%;
-background: rgb(122, 119, 119);
-border-radius: 3px;
-opacity: 1;
-left: 0;
--webkit-transform: rotate(0deg);
--moz-transform: rotate(0deg);
--o-transform: rotate(0deg);
-transform: rotate(0deg);
--webkit-transition: .25s ease-in-out;
--moz-transition: .25s ease-in-out;
--o-transition: .25s ease-in-out;
-transition: .25s ease-in-out;
-}
-
-
-/* Hamburger Lines  */
-
-#hamburger-icon span:nth-child(1) {
-top: 0px;
-}
-
-#hamburger-icon span:nth-child(2), #hamburger-icon span:nth-child(3) {
-top: 16px;
-}
-
-#hamburger-icon span:nth-child(4) {
-top: 32px;
-}
-
-#hamburger-icon.hamburger-open span{background:#fff}
-
-#hamburger-icon.hamburger-open span:nth-child(1) {
-top: 18px;
-width: 0%;
-left: 50%;
-}
-
-#hamburger-icon.hamburger-open span:nth-child(2) {
--webkit-transform: rotate(45deg);
--moz-transform: rotate(45deg);
--o-transform: rotate(45deg);
-transform: rotate(45deg);
-}
-
-#hamburger-icon.hamburger-open span:nth-child(3) {
--webkit-transform: rotate(-45deg);
--moz-transform: rotate(-45deg);
--o-transform: rotate(-45deg);
-transform: rotate(-45deg);
-}
-
-#hamburger-icon.hamburger-open span:nth-child(4) {
-top: 18px;
-width: 0%;
-left: 50%;
+input:checked ~ .menu-content {
+  max-height: 100%;
 }
 
 
