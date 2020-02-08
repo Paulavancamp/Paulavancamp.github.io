@@ -57,9 +57,18 @@
   font-size: 25px;
 }
 
+form{
+   height:100%;
+   overflow:auto;
+ }
+
 #contactForm input{
-  margin-top:10px;
+  margin:0px;
   width:100%;
+}
+
+#contactForm tr{
+  max-height:50px;
 }
 
 #submit-form{

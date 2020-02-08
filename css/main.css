@@ -27,10 +27,6 @@ html {
 body {
   margin: 0;
   font-size: 1rem;
-  line-height: 1.5em;
-  @media ( min-width: 768px ) {
-    font-size: 1.2rem;
-  }
 }
 
 article{
@@ -47,7 +43,7 @@ article div{
 .menu-content {
   max-height: 0;
   overflow: hidden;
-  padding: 0 0 0 50px;
+  padding:0px;
 }
 .collapsible-menu {
   background-color: rgb(255, 255, 255);
@@ -106,18 +102,20 @@ a {
 	white-space: nowrap;
 }
 
-h1{
-    font-family: 'Bebas Neue', cursive;
-}
 h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+}
+h3{
    font-family: 'Righteous', cursive; 
+   font-size: 40px;
 }
 
 /* Cube Positioning */
 .triangle {
   width: 200px;
   height: 200px;
-  margin: auto;
+  margin: 20px 80px 0px 0px;
   position: relative;
   transform-style: preserve-3d;
   transform: rotateX(-20deg) rotateY(-40deg);
@@ -139,10 +137,10 @@ h2{
   height: 199px;
 }
 .tri-face .backtrilabel{
-  transform: translateY(90px) translateX(55px) rotateY(180deg);
+  transform: translateY(50px) translateX(45px) rotateY(180deg);
 }
 .tri-face .fronttrilabel{
-  transform: translateY(90px) translateX(-55px);
+  transform: translateY(50px) translateX(-45px);
 }
 .tri-front{
   transform:translateZ(89px);
@@ -166,6 +164,7 @@ h2{
     position: relative;
     width: 200px;
     height: 200px;
+    margin: 30px 80px 0px 0px;
     transform-style: preserve-3d;
     transform: rotateX(-20deg) rotateY(-40deg);
 }
@@ -208,6 +207,7 @@ h2{
   height: 200px;
   margin: auto;
   position: relative;
+  margin: 70px 80px 0px 0px;
   transform-style: preserve-3d;
   transform: rotateX(-20deg) rotateY(-40deg);
 }
@@ -241,10 +241,10 @@ h2{
   padding: 4px 0;
 }
 .pent-face .backpentlabel{
-  transform:translateY(100px) rotateY(180deg);
+  transform:translateY(70px) rotateY(180deg);
 }
 .pent-face .frontpentlabel{
-  transform:translateY(100px);
+  transform:translateY(70px);
   
 }
 .pent-front{
@@ -277,6 +277,7 @@ h2{
   height: 200px;
   margin: auto;
   position: relative;
+  margin: -40px 80px 0px 0px;
   transform-style: preserve-3d;
   transform: rotateX(-20deg) rotateY(-40deg) translateY(-200px);
 }
@@ -317,10 +318,10 @@ h2{
   height: 100px;
 }
 .hex-face .backhexlabel{
-  transform: translateY(20px) rotateY(180deg);
+  transform: translateY(45px) rotateY(180deg);
 }
 .hex-face .fronthexlabel{
-  transform: translateY(20px);
+  transform: translateY(45px);
 }
 .hex-front{
   transform: translateZ(90px) translateY(245px);
