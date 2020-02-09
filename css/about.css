@@ -1,0 +1,124 @@
+.tri-content {
+    position: absolute;
+    background: #3498db;
+    color:black;
+  }
+  .blank-light{
+    background: #64b8fb;
+  }
+  .blank-dark{
+    background: #2468db;
+  }
+  .tri-up{
+    width: 600px;
+    height: 480px;
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  }
+  .tri-down{
+    width: 600px;
+    height: 480px;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+  }
+  
+  .tri-content:nth-child(1) {
+    top:100px;
+    left:0px;
+  }
+  .tri-content:nth-child(2) {
+    top:100px;
+    left:300px;
+  }
+  .tri-content:nth-child(3) {
+    top:580px;
+    left:0px;
+  }
+  .tri-content:nth-child(4) {
+    top:1060px;
+    left:0px;
+  }
+  .tri-content:nth-child(5) {
+    top:1060px;
+    left:300px;
+  }
+  .tri-content:nth-child(6) {
+    top:1540px;
+    left:300px;
+  }
+  .tri-content:nth-child(7) {
+    top:1540px;
+    left:0px;
+  }
+  .tri-content:nth-child(8) {
+    top:2020px;
+    left:300px;
+  }
+  .tri-content:nth-child(9) {
+    top:2020px;
+    left:0px;
+  }
+  .tri-content:nth-child(10) {
+    top:2500px;
+    left:0px;
+  }
+  .tri-content:nth-child(11) {
+    top:2980px;
+    left:0px;
+  }
+  
+  #pro-pic{
+      background: url(https://scontent-ort2-2.xx.fbcdn.net/v/t31.0-8/11109614_877229819010291_4758929526646148157_o.jpg?_nc_cat=106&_nc_ohc=PYTEp2dGVSIAX9EuKgI&_nc_ht=scontent-ort2-2.xx&oh=6d30ccad192043cf9f63e84b1797ef8f&oe=5ECA7794);
+  }
+  
+  #greeting{
+      transform:translateY(30px) translateX(100px);
+      font-size:80px;
+  }
+  #bio{
+      transform:translateY(40px) translateX(75px);
+      width:450px;
+  }
+  
+  #likes{
+      text-align:center;
+      transform:translateY(30px);
+      line-height:1.25;
+      font-size:40px;
+  }
+  #interest-pic{
+      background: url(https://scontent-ort2-2.xx.fbcdn.net/v/t31.0-8/11109614_877229819010291_4758929526646148157_o.jpg?_nc_cat=106&_nc_ohc=PYTEp2dGVSIAX9EuKgI&_nc_ht=scontent-ort2-2.xx&oh=6d30ccad192043cf9f63e84b1797ef8f&oe=5ECA7794);
+  }
+  
+  .strengths{
+      text-align:center;
+      transform:translateY(200px) translateX(150px);
+      width:300px;
+  }
+  .strengths a{
+      font-size:15px;
+      text-decoration:underline;
+  }
+  #featured{
+      transform:translateY(200px);
+  }
+  #featured a{
+      color:#4a4a7a;
+      text-decoration:underline;
+  }
+  #IOT{ background:url(https://static1.squarespace.com/static/5d0ce90106a13900017f9593/5d6a7904b91b0c0001c3c116/5dcba377e61e9d798829294e/1574703255660/GGMM_IOT-68.jpg?format=2500w);
+    background-repeat: no-repeat;
+    background-size: 700px;
+  }
+  
+  #closing{
+      transform:translateY(150px);
+      text-align:center;
+  }
+  #closing a{
+      font-size:35px;
+      color:#4a4a7a;
+      line-height:3;
+  }
+  #closing a:hover{
+      font-size:30px;
+      color:#2a2a5a;
+  }

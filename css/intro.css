@@ -2,13 +2,12 @@
 
 .wrapper {
     display: flex;
-	flex-wrap: wrap;
+	  flex-wrap: wrap;
     justify-content: center; 
-	align-content: center;
+	  align-content: center;
     align-items: center;
     width: 100%;
     margin: 0 auto;
-	background-color: #f0f0f0;
 }
 p {
 	font-family: 'Muli', sans-serif;
