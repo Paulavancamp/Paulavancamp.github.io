@@ -84,6 +84,15 @@ input:checked ~ .menu-content {
   background-color: #fff;
 }
 
+ul{
+  font-family: 'Muli', sans-serif;
+font-size: 20px;
+line-height: 1.5;
+text-align: left;
+flex-basis: 100%;
+margin: 55px 0;
+}
+
 
 p {
 	font-family: 'Muli', sans-serif;
