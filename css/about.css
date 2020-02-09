@@ -66,7 +66,9 @@
   }
   
   #pro-pic{
-      background: url(https://scontent-ort2-2.xx.fbcdn.net/v/t31.0-8/11109614_877229819010291_4758929526646148157_o.jpg?_nc_cat=106&_nc_ohc=PYTEp2dGVSIAX9EuKgI&_nc_ht=scontent-ort2-2.xx&oh=6d30ccad192043cf9f63e84b1797ef8f&oe=5ECA7794);
+    background: url(/images/profile.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px;
   }
   
   #greeting{
