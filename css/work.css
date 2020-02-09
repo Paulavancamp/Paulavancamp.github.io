@@ -1,0 +1,89 @@
+/*page specific rules*/
+#download-res{
+    color:#f05050;
+}
+.box{
+    position:absolute;
+    width:500px;
+    color:#005566;
+    background:#3adcbc;
+    padding-bottom:30px;
+}
+.box h2{
+    margin:30px 0px 20px 10px;
+}
+.box p, .box h3{
+    margin:12px;
+    text-align:left;
+    font-size:20px;
+}
+.box ul{
+    list-style-type: square;
+    margin:10px 10px 10px 25px;
+    text-align:left;
+    font-size:20px;
+}
+
+.empty{
+  height:180px;
+  background:#005566;
+}
+
+.box:nth-child(1) {
+  top:100px;
+  left:0px;
+}
+.box:nth-child(2) {
+  top:100px;
+  left:550px;
+  height:500px;
+}
+.box:nth-child(3) {
+  top:400px;
+  left:0px;
+}
+.box:nth-child(4) {
+  top:670px;
+  left:0px;
+}
+.box:nth-child(5) {
+  top:920px;
+  left:0px;
+}
+.box:nth-child(6) {
+  top:670px;
+  left:550px;
+}
+.box:nth-child(7) {
+  top:1030px;
+  left:550px;
+}
+.box:nth-child(8) {
+  top:1290px;
+  left:550px;
+}
+.box:nth-child(9) {
+  top:1430px;
+  left:0px;
+}
+.box:nth-child(10) {
+  top:1700px;
+  left:0px;
+}
+.box:nth-child(11) {
+  top:2320px;
+  left:550px;
+}
+.box:nth-child(12) {
+  top:2070px;
+  left:550px;
+}
+.box:nth-child(13) {
+  top:2750px;
+  left:0px;
+}
+.box:nth-child(14) {
+  top:2950px;
+  left:550px;
+  height:433px;
+}
