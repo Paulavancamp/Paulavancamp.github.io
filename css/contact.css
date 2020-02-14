@@ -101,6 +101,10 @@ form{
   max-height:50px;
 }
 
+#formStuff p{
+  margin:0px;
+}
+
 #submit-form{
   font-family: "Bebas Neue", cursive;
   width: 60px;
