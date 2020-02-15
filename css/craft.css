@@ -1,98 +1,104 @@
 
 .pent {
-    position: absolute;
+  position: absolute;
+  text-align:center;
+  width: 390px;
+  border-width: 0 110px 370px;
+  border-style: solid;
+  border-color: transparent transparent #9b59b6;
+}
+
+.pent:after {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: 368px;
+  left: -110px;
+  border-width: 220px 305px 0;
+  border-style: solid;
+  border-color: #9b59b6 transparent transparent;
+}
+.hex-content{
+    position:absolute;
+    color: #332288;
+}
+
+
+.pent:nth-child(1) {
+  transform: translateX(305px) translateY(100px);
+}
+#title{
+    font-size:60px;
+    top:150px;
+    left:550px;
+}
+#intro{
     text-align:center;
-    width: 390px;
-    border-width: 0 110px 370px;
-    border-style: solid;
-    border-color: transparent transparent #9b59b6;
-  }
-  
-  .pent:after {
-    content: "";
-    position: absolute;
-    height: 0;
-    width: 0;
-    top: 369px;
-    left: -110px;
-    border-width: 220px 305px 0;
-    border-style: solid;
-    border-color: #9b59b6 transparent transparent;
-  }
-  .hex-content{
-      position:absolute;
-      color: #332288;
-  }
-  
-  
-  .pent:nth-child(1) {
-    transform: translateX(300px) translateY(100px);
-  }
-  #title{
-      font-size:60px;
-      top:200px;
-      left:550px;
-  }
-  #intro{
-      text-align:center;
-      font-size:35px;
-      top:320px;
-      left:405px;
-      width:400px;
-  }
-  .pent:nth-child(2) {
-    transform:translateY(1200px) translateX(330px) rotateZ(-31deg);
-  }
-  
-  #construction{
-      top:1300px;
-      left:590px;
-      transform:rotateZ(5deg);
-  }
-  #portfolio{
-      text-align:center;
-      font-size:35px;
-      top:1400px;
-      left:470px;
-      width:400px;
-      transform:rotateZ(5deg);
-  }
-  
-  .pent:nth-child(3) {
-    transform:translateY(1750px) translateX(330px) rotateZ(5deg);
-  }
-  #code{
-      top:1800px;
-      left:600px;
-      transform: rotateZ(5deg);
-  }
-  #github{
-      text-align:center;
-      font-size:35px;
-      top:1880px;
-      left:425px;
-      width:400px;
-      transform: rotateZ(5deg);
-  }
-  
-  
-  .p-pic{
-      position:absolute;
-      top:0px;
-      left:0px;
-      height:590px;
-      width:605px;
-      -webkit-clip-path: polygon(50% 0%, 100% 43%, 82% 100%, 18% 100%, 0 43%);
-      clip-path: polygon(50% 0%, 100% 37%, 82% 100%, 18% 100%, 0 37%);
-  }
-  
-  #pic1{
-    transform:translateY(500px) translateX(625px);
-  }
-  #pic2{
-    transform:translateY(690px) translateX(55px) rotateZ(-105deg);
-  }
-  #pic3{
-    transform:translateY(2130px) translateX(-30px) rotateZ(5deg);
-  }
-  
+    font-size:35px;
+    top:250px;
+    left:405px;
+    width:400px;
+}
+.pent:nth-child(2) {
+  transform:translateY(1300px) translateX(305px) rotateZ(0deg);
+}
+
+#construction{
+    top:1350px;
+    left:500px;
+}
+#portfolio{
+    text-align:center;
+    font-size:35px;
+    top:1400px;
+    left:400px;
+    width:450px;
+}
+
+.pent:nth-child(3) {
+  transform:translateY(2575px) translateX(305px);
+}
+#code{
+    top:2600px;
+    left:570px;
+}
+#github{
+    text-align:center;
+    font-size:35px;
+    top:2670px;
+    left:380px;
+    width:460px;
+}
+
+
+.p-pic{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:590px;
+    width:605px;
+    -webkit-clip-path: polygon(50% 0%, 100% 43%, 82% 100%, 18% 100%, 0 43%);
+    clip-path: polygon(50% 0%, 100% 37%, 82% 100%, 18% 100%, 0 37%);
+}
+
+#pic1{
+  transform:translateY(525px) translateX(590px) rotateZ(12deg);
+}
+#pic2{
+  transform:translateY(525px) translateX(20px) rotateZ(-12deg);
+}
+
+#pic3{
+  transform:translateY(1730px) translateX(590px) rotateZ(12deg);
+}
+#pic4{
+  transform:translateY(1730px) translateX(20px) rotateZ(-12deg);
+}
+
+#pic5{
+  transform:translateY(3000px) translateX(590px) rotateZ(12deg);
+}
+#pic6{
+  transform:translateY(3000px) translateX(20px) rotateZ(-12deg);
+}
