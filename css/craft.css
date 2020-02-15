@@ -50,10 +50,10 @@
 }
 #portfolio{
     text-align:center;
-    font-size:35px;
-    top:1400px;
-    left:400px;
-    width:450px;
+    font-size:30px;
+    top:1440px;
+    left:360px;
+    width:500px;
 }
 
 .pent:nth-child(3) {
@@ -65,8 +65,8 @@
 }
 #github{
     text-align:center;
-    font-size:35px;
-    top:2670px;
+    font-size:30px;
+    top:2700px;
     left:380px;
     width:460px;
 }
@@ -83,22 +83,22 @@
 }
 
 #pic1{
-  transform:translateY(525px) translateX(590px) rotateZ(12deg);
+  transform:translateY(530px) translateX(590px) rotateZ(12deg);
 }
 #pic2{
-  transform:translateY(525px) translateX(20px) rotateZ(-12deg);
+  transform:translateY(530px) translateX(25px) rotateZ(-12deg);
 }
 
 #pic3{
-  transform:translateY(1730px) translateX(590px) rotateZ(12deg);
+  transform:translateY(1735px) translateX(590px) rotateZ(12deg);
 }
 #pic4{
-  transform:translateY(1730px) translateX(20px) rotateZ(-12deg);
+  transform:translateY(1735px) translateX(25px) rotateZ(-12deg);
 }
 
 #pic5{
-  transform:translateY(3000px) translateX(590px) rotateZ(12deg);
+  transform:translateY(3005px) translateX(590px) rotateZ(12deg);
 }
 #pic6{
-  transform:translateY(3000px) translateX(20px) rotateZ(-12deg);
+  transform:translateY(3005px) translateX(25px) rotateZ(-12deg);
 }
